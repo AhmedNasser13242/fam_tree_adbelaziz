@@ -1,0 +1,45 @@
+<?php
+
+return [
+    // Labels
+    'my_profile'        => 'ملفي',
+    'search'            => 'يبحث',
+    'unknown'           => 'مجهول',
+    'male'              => 'ذكر',
+    'female'            => 'أنثى',
+    'male_code'         => 'ذ',
+    'female_code'       => 'ا',
+    'family_chart'      => 'مخطط الأسرة',
+    'family_tree'       => 'شجرة العائلة',
+    'child_count'       => 'عدد الأطفال',
+    'grand_child_count' => 'عدد الاحفاد',
+    'user_found'        => 'تم العثور على <strong>: total </strong> مع الكلمة الرئيسية: <strong>: keyword </strong>',
+    'search_your_family' => 'ابحث عن عائلتك',
+    'search_your_family_placeholder' => 'أدخل الاسم / اللقب ... انقر فوق بحث',
+    'example'           => 'على سبيل المثال.',
+    'address'           => 'عنوان',
+    'contact'           => 'اتصال',
+    'city'              => 'مدينة',
+    'phone'             => 'Phone',
+    'login_account'     => 'تسجيل الدخول',
+    'childs_were_not_recorded' => 'لم يتم تسجيل الأطفال.',
+
+    // Actions
+    'edit'              => 'يحرر',
+    'update'            => 'تحديث',
+    'show_profile'      => 'تظهر بيانات',
+    'show_family_chart' => 'إظهار مخطط الأسرة',
+    'show_family_tree'  => 'عرض شجرة العائلة',
+    'show_marriages'    => 'عرض الزيجات',
+    'enter_new_name'    => 'أدخل اسم جديد ...',
+    'select_from_existing_males'   => 'اختر من بين الذكور الحاليين',
+    'select_from_existing_females' => 'اختر من بين الإناث الموجودة',
+    'select_from_existing_couples' => 'اختر من الأزواج الموجودين',
+    'restore'           => 'يعيد',
+    'download'          => 'تحميل',
+    'delete'            => 'يمسح',
+    'cancel'            => 'يلغي',
+
+    'open_in_google_map' => 'افتح في خريطة جوجل',
+    'data_not_available' => 'البيانات غير متوفرة.',
+];
