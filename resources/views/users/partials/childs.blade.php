@@ -2,7 +2,11 @@
     <div class="panel-heading">
         @can ('edit', $user)
         <div class="pull-right" style="margin: -3px -6px">
+            @if(Auth::user()->role=='admin')
             {{ link_to_route('users.show', __('user.add_child'), [$user->id, 'action' => 'add_child'], ['class' => 'btn btn-success btn-xs']) }}
+            @else
+            <div></div>
+            @endif
         </div>
         @endcan
         <h3 class="panel-title">{{ __('user.childs') }} ({{ $user->childs->count() }})</h3>

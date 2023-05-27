@@ -6,7 +6,7 @@
             <tr>
                 <th class="col-sm-4">{{ __('user.father') }}</th>
                 <td class="col-sm-8">
-                    @can ('edit', $user)
+                    {{-- @can ('edit', $user) --}}
                         @if (request('action') == 'set_father')
                         {{ Form::open(['route' => ['family-actions.set-father', $user->id]]) }}
                         {!! FormField::select('set_father_id', $malePersonList, ['label' => false, 'value' => $user->father_id, 'placeholder' => __('app.select_from_existing_males')]) !!}
@@ -21,18 +21,24 @@
                         @else
                             {{ $user->fatherLink() }}
                             <div class="pull-right">
+                                
+                                @if(Auth::user()->role=='admin')
                                 {{ link_to_route('users.show', __('user.set_father'), [$user->id, 'action' => 'set_father'], ['class' => 'btn btn-link btn-xs']) }}
+                                @else
+                                <div></div>
+                                @endif
+
                             </div>
                         @endif
-                    @else
+                    {{-- @else --}}
                         {{ $user->fatherLink() }}
-                    @endcan
+                    {{-- @endcan --}}
                 </td>
             </tr>
             <tr>
                 <th>{{ __('user.mother') }}</th>
                 <td>
-                    @can ('edit', $user)
+                    {{-- @can ('edit', $user) --}}
                         @if (request('action') == 'set_mother')
                         {{ Form::open(['route' => ['family-actions.set-mother', $user->id]]) }}
                         {!! FormField::select('set_mother_id', $femalePersonList, ['label' => false, 'value' => $user->mother_id, 'placeholder' => __('app.select_from_existing_females')]) !!}
@@ -47,51 +53,68 @@
                         @else
                             {{ $user->motherLink() }}
                             <div class="pull-right">
+                                @if(Auth::user()->role=='admin')
                                 {{ link_to_route('users.show', __('user.set_mother'), [$user->id, 'action' => 'set_mother'], ['class' => 'btn btn-link btn-xs']) }}
+                                @else
+                                <div></div>
+                                @endif
                             </div>
                         @endif
-                    @else
+                    {{-- @else --}}
                         {{ $user->motherLink() }}
-                    @endcan
+                    {{-- @endcan --}}
                 </td>
             </tr>
             <tr>
                 <th class="col-sm-4">{{ __('user.parent') }}</th>
                 <td class="col-sm-8">
-                    @can ('edit', $user)
+                    {{-- @can ('edit', $user) --}}
                     <div class="pull-right">
                         @unless (request('action') == 'set_parent')
+                        @if(Auth::user()->role=='admin')
+
                             {{ link_to_route('users.show', __('user.set_parent'), [$user->id, 'action' => 'set_parent'], ['class' => 'btn btn-link btn-xs']) }}
+                            @else
+                            <div></div>
+                            @endif
                         @endunless
                     </div>
-                    @endcan
+                    {{-- @endcan --}}
 
                     @if ($user->parent)
                     {{ $user->parent->husband->name }} & {{ $user->parent->wife->name }}
                     @endif
 
-                    @can('edit', $user)
+                    {{-- @can('edit', $user) --}}
                         @if (request('action') == 'set_parent')
                             {{ Form::open(['route' => ['family-actions.set-parent', $user->id]]) }}
                             {!! FormField::select('set_parent_id', $allMariageList, ['label' => false, 'value' => $user->parent_id, 'placeholder' => __('app.select_from_existing_couples')]) !!}
                             {{ Form::submit(__('app.update'), ['class' => 'btn btn-info btn-sm', 'id' => 'set_parent_button']) }}
+                            @if(Auth::user()->role=='admin')
                             {{ link_to_route('users.show', __('app.cancel'), $user, ['class' => 'btn btn-default btn-sm']) }}
+                            @else
+                            <div></div>
+                            @endif
                             {{ Form::close() }}
                         @endif
-                    @endcan
+                    {{-- @endcan --}}
                 </td>
             </tr>
             @if ($user->gender_id == 1)
             <tr>
                 <th>{{ __('user.wife') }}</th>
                 <td>
-                    @can ('edit', $user)
+                    {{-- @can ('edit', $user) --}}
                     <div class="pull-right">
                         @unless (request('action') == 'add_spouse')
+                        @if(Auth::user()->role=='admin')
                             {{ link_to_route('users.show', __('user.add_wife'), [$user->id, 'action' => 'add_spouse'], ['class' => 'btn btn-link btn-xs']) }}
+                            @else
+                            <div></div>
+                            @endif
                         @endunless
                     </div>
-                    @endcan
+                    {{-- @endcan --}}
 
                     @if ($user->wifes->isEmpty() == false)
                         <ul class="list-unstyled">
@@ -100,7 +123,7 @@
                             @endforeach
                         </ul>
                     @endif
-                    @can('edit', $user)
+                    {{-- @can('edit', $user) --}}
                         @if (request('action') == 'add_spouse')
                         <div>
                             {{ Form::open(['route' => ['family-actions.add-wife', $user->id]]) }}
@@ -116,24 +139,35 @@
                                 </div>
                             </div>
                             {{ Form::submit(__('app.update'), ['class' => 'btn btn-info btn-sm', 'id' => 'set_wife_button']) }}
+                            @if(Auth::user()->role=='admin')
+
                             {{ link_to_route('users.show', __('app.cancel'), $user, ['class' => 'btn btn-default btn-sm']) }}
+                            @else
+                            <div></div>
+                            @endif
                             {{ Form::close() }}
                         </div>
                         @endif
-                    @endcan
+                    {{-- @endcan --}}
                 </td>
             </tr>
             @else
             <tr>
                 <th>{{ __('user.husband') }}</th>
                 <td>
-                    @can ('edit', $user)
+                    {{-- @can ('edit', $user) --}}
                     <div class="pull-right">
                         @unless (request('action') == 'add_spouse')
+                        @if(Auth::user()->role=='admin')
+
                             {{ link_to_route('users.show', __('user.add_husband'), [$user->id, 'action' => 'add_spouse'], ['class' => 'btn btn-link btn-xs']) }}
+                            @else
+                            <div></div>
+                            @endif
+
                         @endunless
                     </div>
-                    @endcan
+                    {{-- @endcan --}}
                     @if ($user->husbands->isEmpty() == false)
                         <ul class="list-unstyled">
                             @foreach($user->husbands as $husband)
@@ -141,7 +175,7 @@
                             @endforeach
                         </ul>
                     @endif
-                    @can('edit', $user)
+                    {{-- @can('edit', $user) --}}
                         @if (request('action') == 'add_spouse')
                         <div>
                             {{ Form::open(['route' => ['family-actions.add-husband', $user->id]]) }}
@@ -157,11 +191,16 @@
                                 </div>
                             </div>
                             {{ Form::submit(__('app.update'), ['class' => 'btn btn-info btn-sm', 'id' => 'set_husband_button']) }}
+                            @if(Auth::user()->role=='admin')
                             {{ link_to_route('users.show', __('app.cancel'), [$user->id], ['class' => 'btn btn-default btn-sm']) }}
+                            @else
+                            <div></div>
+                            @endif
+
                             {{ Form::close() }}
                         </div>
                         @endif
-                    @endcan
+                    {{-- @endcan --}}
                 </td>
             </tr>
             @endif
