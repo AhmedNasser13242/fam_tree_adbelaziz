@@ -11,6 +11,10 @@
 |
 */
 
+use Illuminate\Support\Facades\Auth;
+use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\Project\ProjectController;
+
 Route::get('/', 'UsersController@search');
 
 Auth::routes();
@@ -61,4 +65,11 @@ Route::group(['middleware' => 'admin'], function () {
     Route::post('backups/{fileName}/restore', ['as' => 'backups.restore', 'uses' => 'BackupsController@restore']);
     Route::get('backups/{fileName}/dl', ['as' => 'backups.download', 'uses' => 'BackupsController@download']);
     Route::resource('backups', 'BackupsController');
+});
+
+
+//Company Route
+Route::controller(ProjectController::class)->group(function(){
+    Route::post('/store/company','StoreCompany')->name('store.company');
+    Route::post('/edit/company','StoreCompany')->name('edit.company');
 });
