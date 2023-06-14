@@ -164,73 +164,10 @@
                 </tr>
                 @if (Auth::user()->role == 'admin')
                     <tr>
-                        <th>اضف اسم المشروع التجاري الخاص بك</th>
+                        <th>اضف المشروع التجاري الخاص بك</th>
                         <td>
                             <div class="pull-center">
-                                <input type="text" name="company_name" id="">
-                            </div>
-
-                        </td>
-                    </tr>
-                    <tr>
-                        <th>اضف صورة لمشروعك</th>
-                        <td>
-                            <div class="pull-center">
-                                <input type="text" name="company_image" id="">
-                            </div>
-
-                        </td>
-                    </tr>
-                    <tr>
-                        <th>تضف عنوان مشروعك</th>
-                        <td>
-                            <div class="pull-center">
-                                <input type="text" name="company_address" id="">
-                            </div>
-
-                        </td>
-                    </tr>
-                    <tr>
-                        <th>اضف رقم للتواصل لمشروعك</th>
-                        <td>
-                            <div class="pull-center">
-                                <input type="text" name="company_phone" id="">
-                            </div>
-
-                        </td>
-                    </tr>
-                    <tr>
-                        <th>اضف فيسبوك</th>
-                        <td>
-                            <div class="pull-center">
-                                <input type="text" name="company_facebook" id="">
-                            </div>
-
-                        </td>
-                    </tr>
-                    <tr>
-                        <th>اضف تويتر</th>
-                        <td>
-                            <div class="pull-center">
-                                <input type="text" name="company_twitter" id="">
-                            </div>
-
-                        </td>
-                    </tr>
-                    <tr>
-                        <th>اضف انستجرام</th>
-                        <td>
-                            <div class="pull-center">
-                                <input type="text" name="company_instagram" id="">
-                            </div>
-
-                        </td>
-                    </tr>
-                    <tr>
-                        <th>اضف لينك اخر</th>
-                        <td>
-                            <div class="pull-center">
-                                <input type="text" name="company_links" id="">
+                                <h4><a href="{{ route('view.company') }}">اضافة</a></h4>
                             </div>
 
                         </td>

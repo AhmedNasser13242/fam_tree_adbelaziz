@@ -70,6 +70,8 @@ Route::group(['middleware' => 'admin'], function () {
 
 //Company Route
 Route::controller(ProjectController::class)->group(function(){
+    Route::get('/view/company','ViewCompany')->name('view.company');
+    Route::get('/add/company/{id}','AddCompany')->name('add.company');
     Route::post('/store/company','StoreCompany')->name('store.company');
-    Route::post('/edit/company','StoreCompany')->name('edit.company');
+    Route::get('/edit/company/{id}','StoreCompany')->name('edit.company');
 });
