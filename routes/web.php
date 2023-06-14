@@ -13,7 +13,6 @@
 
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
-use App\Http\Controllers\Project\ProjectController;
 
 Route::get('/', 'UsersController@search');
 
@@ -69,9 +68,5 @@ Route::group(['middleware' => 'admin'], function () {
 
 
 //Company Route
-Route::controller(ProjectController::class)->group(function(){
-    Route::get('/view/company','ViewCompany')->name('view.company');
-    Route::get('/add/company/{id}','AddCompany')->name('add.company');
-    Route::post('/store/company','StoreCompany')->name('store.company');
-    Route::get('/edit/company/{id}','StoreCompany')->name('edit.company');
-});
+
+Route::get('/view/company','ProjectController@ViewCompany')->name('view.company');

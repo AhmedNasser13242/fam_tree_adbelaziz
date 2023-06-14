@@ -167,7 +167,7 @@
                         <th>اضف المشروع التجاري الخاص بك</th>
                         <td>
                             <div class="pull-center">
-                                <h4><a href="{{ route('view.company') }}">اضافة</a></h4>
+                                {{ link_to_route('view.company', __('app.cancel')) }}
                             </div>
 
                         </td>

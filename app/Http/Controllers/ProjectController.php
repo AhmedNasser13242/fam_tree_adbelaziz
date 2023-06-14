@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Http\Controllers\Project;
+namespace App\Http\Controllers;
 
 use App\Http\Controllers\Controller;
 use App\Http\Requests\ProjectRequest;
@@ -10,12 +10,11 @@ use Illuminate\Support\Facades\Auth;
 
 class ProjectController extends Controller
 {
-    public function ViewProject(){
-        $users = Auth::user()->id;
-        $projects = Project::where('user_id', $users);
-        return view('users.project.project_view',compact('projects'));
+    public function ViewCompany(){
+
+        return view('users.project.project_view',);
     }
-    public function AddProject(){
+    public function AddCompany(){
         $users = Auth::user()->id;
         return view('users.project.project_add',compact('users'));
     }
