@@ -28,24 +28,24 @@
                 <td>{{ $user->birth_order }}</td>
             </tr>
             @if ($user->dod)
-            <tr>
-                <th>{{ trans('user.dod') }}</th>
-                <td>{{ $user->dod }}</td>
-            </tr>
+                <tr>
+                    <th>{{ trans('user.dod') }}</th>
+                    <td>{{ $user->dod }}</td>
+                </tr>
             @endif
             <tr>
                 <th>{{ trans('user.age') }}</th>
                 <td>
                     @if ($user->age)
-                    {!! $user->age_string !!}
+                        {!! $user->age_string !!}
                     @endif
                 </td>
             </tr>
             @if ($user->email)
-            <tr>
-                <th>{{ trans('user.email') }}</th>
-                <td>{{ $user->email }}</td>
-            </tr>
+                <tr>
+                    <th>{{ trans('user.email') }}</th>
+                    <td>{{ $user->email }}</td>
+                </tr>
             @endif
             <tr>
                 <th>{{ trans('user.phone') }}</th>

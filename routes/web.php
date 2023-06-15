@@ -68,5 +68,11 @@ Route::group(['middleware' => 'admin'], function () {
 
 
 //Company Route
-
-Route::get('/view/company','ProjectController@ViewCompany')->name('view.company');
+Route::controller(ProjectController::class)->group(function(){
+    Route::get('/view/company/{user}','ViewCompany')->name('view.company');
+    Route::get('/add/company/{id}','AddCompany')->name('add.company');
+    Route::post('/store/company','StoreCompany')->name('store.company');
+    Route::get('/edit/company/{id}','EditCompany')->name('edit.company');
+    Route::post('/update/company','UpdateCompany')->name('update.company');
+    Route::get('/delete/company/{id}','DeleteCompany')->name('delete.company');
+});

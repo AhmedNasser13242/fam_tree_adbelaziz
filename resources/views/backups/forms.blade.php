@@ -19,19 +19,19 @@
 @endif
 @if (Request::get('action') == 'restore' && Request::has('file_name'))
     <div class="panel panel-warning">
-        <div class="panel-heading"><h3 class="panel-title">{{ trans('backup.restore') }}</h3></div>
+        <div class="panel-heading">
+            <h3 class="panel-title">{{ trans('backup.restore') }}</h3>
+        </div>
         <div class="panel-body">
             <p>{!! trans('backup.sure_to_restore', ['filename' => Request::get('file_name')]) !!}</p>
         </div>
         <div class="panel-footer">
             <a href="{{ route('backups.index') }}" class="btn btn-default">{{ trans('backup.cancel_restore') }}</a>
-            <form action="{{ route('backups.restore', Request::get('file_name')) }}"
-                method="post"
-                class="pull-right"
+            <form action="{{ route('backups.restore', Request::get('file_name')) }}" method="post" class="pull-right"
                 onsubmit="return confirm('Click OK to Restore.')">
                 {{ csrf_field() }}
                 <input type="hidden" name="file_name" value="{{ Request::get('file_name') }}">
-                <input type="submit" class="btn btn-warning" value="{{ trans('backup.confirm_restore') }}">
+                <input type="submit" class="btn btn-info" value="{{ trans('backup.confirm_restore') }}">
             </form>
         </div>
     </div>

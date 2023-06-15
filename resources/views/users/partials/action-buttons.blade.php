@@ -1,7 +1,7 @@
 <div class="pull-right btn-group" role="group">
     {{-- @can('edit', $user) --}}
     @if (Auth::user()->role == 'admin')
-        {{ link_to_route('users.edit', trans('app.edit'), [$user->id], ['class' => 'btn btn-warning']) }}
+        {{ link_to_route('users.edit', trans('app.edit'), [$user->id], ['class' => 'btn btn-info']) }}
     @else
         <div></div>
     @endif

@@ -17,8 +17,8 @@ class Project extends Model
         'company_facebook',
         'company_twitter',
         'company_instagram',
-        'company_image',
         'company_links',
+        'company_image',
     ];
     public function user (){
         return $this->belongsTo(User::class, 'user_id', 'id');
