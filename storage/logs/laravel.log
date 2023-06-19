@@ -1,0 +1,630 @@
+[2023-06-15 07:12:29] laravel.EMERGENCY: Unable to create configured logger. Using emergency logger. {"exception":"[object] (InvalidArgumentException(code: 0): Log [] is not defined. at C:\\MAMP\\htdocs\\family tree\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php:200)
+[stacktrace]
+#0 C:\\MAMP\\htdocs\\family tree\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(125): Illuminate\\Log\\LogManager->resolve()
+#1 C:\\MAMP\\htdocs\\family tree\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(112): Illuminate\\Log\\LogManager->get()
+#2 C:\\MAMP\\htdocs\\family tree\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(590): Illuminate\\Log\\LogManager->driver()
+#3 C:\\MAMP\\htdocs\\family tree\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Exceptions\\Handler.php(247): Illuminate\\Log\\LogManager->error()
+#4 C:\\MAMP\\htdocs\\family tree\\app\\Exceptions\\Handler.php(37): Illuminate\\Foundation\\Exceptions\\Handler->report()
+#5 C:\\MAMP\\htdocs\\family tree\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(366): App\\Exceptions\\Handler->report()
+#6 C:\\MAMP\\htdocs\\family tree\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(131): Illuminate\\Foundation\\Console\\Kernel->reportException()
+#7 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle()
+#8 {main}
+"} 
+[2023-06-15 07:12:29] laravel.ERROR: syntax error, unexpected namespaced name "App\Providers\AppServiceProvider", expecting "]" {"exception":"[object] (ParseError(code: 0): syntax error, unexpected namespaced name \"App\\Providers\\AppServiceProvider\", expecting \"]\" at C:\\MAMP\\htdocs\\family tree\\config\\app.php:185)
+[stacktrace]
+#0 C:\\MAMP\\htdocs\\family tree\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\LoadConfiguration.php(39): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->loadConfigurationFiles()
+#1 C:\\MAMP\\htdocs\\family tree\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(237): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->bootstrap()
+#2 C:\\MAMP\\htdocs\\family tree\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(310): Illuminate\\Foundation\\Application->bootstrapWith()
+#3 C:\\MAMP\\htdocs\\family tree\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(127): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#4 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle()
+#5 {main}
+"} 
+[2023-06-15 07:12:29] laravel.EMERGENCY: Unable to create configured logger. Using emergency logger. {"exception":"[object] (InvalidArgumentException(code: 0): Log [] is not defined. at C:\\MAMP\\htdocs\\family tree\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php:200)
+[stacktrace]
+#0 C:\\MAMP\\htdocs\\family tree\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(125): Illuminate\\Log\\LogManager->resolve()
+#1 C:\\MAMP\\htdocs\\family tree\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(112): Illuminate\\Log\\LogManager->get()
+#2 C:\\MAMP\\htdocs\\family tree\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(590): Illuminate\\Log\\LogManager->driver()
+#3 C:\\MAMP\\htdocs\\family tree\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Exceptions\\Handler.php(247): Illuminate\\Log\\LogManager->error()
+#4 C:\\MAMP\\htdocs\\family tree\\app\\Exceptions\\Handler.php(37): Illuminate\\Foundation\\Exceptions\\Handler->report()
+#5 C:\\MAMP\\htdocs\\family tree\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(366): App\\Exceptions\\Handler->report()
+#6 C:\\MAMP\\htdocs\\family tree\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(131): Illuminate\\Foundation\\Console\\Kernel->reportException()
+#7 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle()
+#8 {main}
+"} 
+[2023-06-15 07:12:29] laravel.ERROR: syntax error, unexpected namespaced name "App\Providers\AppServiceProvider", expecting "]" {"exception":"[object] (ParseError(code: 0): syntax error, unexpected namespaced name \"App\\Providers\\AppServiceProvider\", expecting \"]\" at C:\\MAMP\\htdocs\\family tree\\config\\app.php:185)
+[stacktrace]
+#0 C:\\MAMP\\htdocs\\family tree\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\LoadConfiguration.php(39): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->loadConfigurationFiles()
+#1 C:\\MAMP\\htdocs\\family tree\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(237): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->bootstrap()
+#2 C:\\MAMP\\htdocs\\family tree\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(310): Illuminate\\Foundation\\Application->bootstrapWith()
+#3 C:\\MAMP\\htdocs\\family tree\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(127): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#4 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle()
+#5 {main}
+"} 
+[2023-06-15 07:12:29] laravel.EMERGENCY: Unable to create configured logger. Using emergency logger. {"exception":"[object] (InvalidArgumentException(code: 0): Log [] is not defined. at C:\\MAMP\\htdocs\\family tree\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php:200)
+[stacktrace]
+#0 C:\\MAMP\\htdocs\\family tree\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(125): Illuminate\\Log\\LogManager->resolve()
+#1 C:\\MAMP\\htdocs\\family tree\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(112): Illuminate\\Log\\LogManager->get()
+#2 C:\\MAMP\\htdocs\\family tree\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(590): Illuminate\\Log\\LogManager->driver()
+#3 C:\\MAMP\\htdocs\\family tree\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Exceptions\\Handler.php(247): Illuminate\\Log\\LogManager->error()
+#4 C:\\MAMP\\htdocs\\family tree\\app\\Exceptions\\Handler.php(37): Illuminate\\Foundation\\Exceptions\\Handler->report()
+#5 C:\\MAMP\\htdocs\\family tree\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(366): App\\Exceptions\\Handler->report()
+#6 C:\\MAMP\\htdocs\\family tree\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(131): Illuminate\\Foundation\\Console\\Kernel->reportException()
+#7 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle()
+#8 {main}
+"} 
+[2023-06-15 07:12:29] laravel.ERROR: syntax error, unexpected namespaced name "App\Providers\AppServiceProvider", expecting "]" {"exception":"[object] (ParseError(code: 0): syntax error, unexpected namespaced name \"App\\Providers\\AppServiceProvider\", expecting \"]\" at C:\\MAMP\\htdocs\\family tree\\config\\app.php:185)
+[stacktrace]
+#0 C:\\MAMP\\htdocs\\family tree\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\LoadConfiguration.php(39): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->loadConfigurationFiles()
+#1 C:\\MAMP\\htdocs\\family tree\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(237): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->bootstrap()
+#2 C:\\MAMP\\htdocs\\family tree\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(310): Illuminate\\Foundation\\Application->bootstrapWith()
+#3 C:\\MAMP\\htdocs\\family tree\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(127): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#4 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle()
+#5 {main}
+"} 
+[2023-06-15 07:12:29] laravel.EMERGENCY: Unable to create configured logger. Using emergency logger. {"exception":"[object] (InvalidArgumentException(code: 0): Log [] is not defined. at C:\\MAMP\\htdocs\\family tree\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php:200)
+[stacktrace]
+#0 C:\\MAMP\\htdocs\\family tree\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(125): Illuminate\\Log\\LogManager->resolve()
+#1 C:\\MAMP\\htdocs\\family tree\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(112): Illuminate\\Log\\LogManager->get()
+#2 C:\\MAMP\\htdocs\\family tree\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(590): Illuminate\\Log\\LogManager->driver()
+#3 C:\\MAMP\\htdocs\\family tree\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Exceptions\\Handler.php(247): Illuminate\\Log\\LogManager->error()
+#4 C:\\MAMP\\htdocs\\family tree\\app\\Exceptions\\Handler.php(37): Illuminate\\Foundation\\Exceptions\\Handler->report()
+#5 C:\\MAMP\\htdocs\\family tree\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(366): App\\Exceptions\\Handler->report()
+#6 C:\\MAMP\\htdocs\\family tree\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(131): Illuminate\\Foundation\\Console\\Kernel->reportException()
+#7 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle()
+#8 {main}
+"} 
+[2023-06-15 07:12:29] laravel.ERROR: syntax error, unexpected namespaced name "App\Providers\AppServiceProvider", expecting "]" {"exception":"[object] (ParseError(code: 0): syntax error, unexpected namespaced name \"App\\Providers\\AppServiceProvider\", expecting \"]\" at C:\\MAMP\\htdocs\\family tree\\config\\app.php:185)
+[stacktrace]
+#0 C:\\MAMP\\htdocs\\family tree\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\LoadConfiguration.php(39): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->loadConfigurationFiles()
+#1 C:\\MAMP\\htdocs\\family tree\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(237): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->bootstrap()
+#2 C:\\MAMP\\htdocs\\family tree\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(310): Illuminate\\Foundation\\Application->bootstrapWith()
+#3 C:\\MAMP\\htdocs\\family tree\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(127): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#4 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle()
+#5 {main}
+"} 
+[2023-06-15 07:12:30] laravel.EMERGENCY: Unable to create configured logger. Using emergency logger. {"exception":"[object] (InvalidArgumentException(code: 0): Log [] is not defined. at C:\\MAMP\\htdocs\\family tree\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php:200)
+[stacktrace]
+#0 C:\\MAMP\\htdocs\\family tree\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(125): Illuminate\\Log\\LogManager->resolve()
+#1 C:\\MAMP\\htdocs\\family tree\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(112): Illuminate\\Log\\LogManager->get()
+#2 C:\\MAMP\\htdocs\\family tree\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(590): Illuminate\\Log\\LogManager->driver()
+#3 C:\\MAMP\\htdocs\\family tree\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Exceptions\\Handler.php(247): Illuminate\\Log\\LogManager->error()
+#4 C:\\MAMP\\htdocs\\family tree\\app\\Exceptions\\Handler.php(37): Illuminate\\Foundation\\Exceptions\\Handler->report()
+#5 C:\\MAMP\\htdocs\\family tree\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(366): App\\Exceptions\\Handler->report()
+#6 C:\\MAMP\\htdocs\\family tree\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(131): Illuminate\\Foundation\\Console\\Kernel->reportException()
+#7 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle()
+#8 {main}
+"} 
+[2023-06-15 07:12:30] laravel.ERROR: syntax error, unexpected namespaced name "App\Providers\AppServiceProvider", expecting "]" {"exception":"[object] (ParseError(code: 0): syntax error, unexpected namespaced name \"App\\Providers\\AppServiceProvider\", expecting \"]\" at C:\\MAMP\\htdocs\\family tree\\config\\app.php:185)
+[stacktrace]
+#0 C:\\MAMP\\htdocs\\family tree\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\LoadConfiguration.php(39): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->loadConfigurationFiles()
+#1 C:\\MAMP\\htdocs\\family tree\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(237): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->bootstrap()
+#2 C:\\MAMP\\htdocs\\family tree\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(310): Illuminate\\Foundation\\Application->bootstrapWith()
+#3 C:\\MAMP\\htdocs\\family tree\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(127): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#4 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle()
+#5 {main}
+"} 
+[2023-06-15 07:12:30] laravel.EMERGENCY: Unable to create configured logger. Using emergency logger. {"exception":"[object] (InvalidArgumentException(code: 0): Log [] is not defined. at C:\\MAMP\\htdocs\\family tree\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php:200)
+[stacktrace]
+#0 C:\\MAMP\\htdocs\\family tree\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(125): Illuminate\\Log\\LogManager->resolve()
+#1 C:\\MAMP\\htdocs\\family tree\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(112): Illuminate\\Log\\LogManager->get()
+#2 C:\\MAMP\\htdocs\\family tree\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(590): Illuminate\\Log\\LogManager->driver()
+#3 C:\\MAMP\\htdocs\\family tree\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Exceptions\\Handler.php(247): Illuminate\\Log\\LogManager->error()
+#4 C:\\MAMP\\htdocs\\family tree\\app\\Exceptions\\Handler.php(37): Illuminate\\Foundation\\Exceptions\\Handler->report()
+#5 C:\\MAMP\\htdocs\\family tree\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(366): App\\Exceptions\\Handler->report()
+#6 C:\\MAMP\\htdocs\\family tree\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(131): Illuminate\\Foundation\\Console\\Kernel->reportException()
+#7 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle()
+#8 {main}
+"} 
+[2023-06-15 07:12:30] laravel.ERROR: syntax error, unexpected namespaced name "App\Providers\AppServiceProvider", expecting "]" {"exception":"[object] (ParseError(code: 0): syntax error, unexpected namespaced name \"App\\Providers\\AppServiceProvider\", expecting \"]\" at C:\\MAMP\\htdocs\\family tree\\config\\app.php:185)
+[stacktrace]
+#0 C:\\MAMP\\htdocs\\family tree\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\LoadConfiguration.php(39): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->loadConfigurationFiles()
+#1 C:\\MAMP\\htdocs\\family tree\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(237): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->bootstrap()
+#2 C:\\MAMP\\htdocs\\family tree\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(310): Illuminate\\Foundation\\Application->bootstrapWith()
+#3 C:\\MAMP\\htdocs\\family tree\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(127): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#4 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle()
+#5 {main}
+"} 
+[2023-06-15 07:12:30] laravel.EMERGENCY: Unable to create configured logger. Using emergency logger. {"exception":"[object] (InvalidArgumentException(code: 0): Log [] is not defined. at C:\\MAMP\\htdocs\\family tree\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php:200)
+[stacktrace]
+#0 C:\\MAMP\\htdocs\\family tree\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(125): Illuminate\\Log\\LogManager->resolve()
+#1 C:\\MAMP\\htdocs\\family tree\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(112): Illuminate\\Log\\LogManager->get()
+#2 C:\\MAMP\\htdocs\\family tree\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(590): Illuminate\\Log\\LogManager->driver()
+#3 C:\\MAMP\\htdocs\\family tree\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Exceptions\\Handler.php(247): Illuminate\\Log\\LogManager->error()
+#4 C:\\MAMP\\htdocs\\family tree\\app\\Exceptions\\Handler.php(37): Illuminate\\Foundation\\Exceptions\\Handler->report()
+#5 C:\\MAMP\\htdocs\\family tree\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(366): App\\Exceptions\\Handler->report()
+#6 C:\\MAMP\\htdocs\\family tree\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(131): Illuminate\\Foundation\\Console\\Kernel->reportException()
+#7 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle()
+#8 {main}
+"} 
+[2023-06-15 07:12:30] laravel.ERROR: syntax error, unexpected namespaced name "App\Providers\AppServiceProvider", expecting "]" {"exception":"[object] (ParseError(code: 0): syntax error, unexpected namespaced name \"App\\Providers\\AppServiceProvider\", expecting \"]\" at C:\\MAMP\\htdocs\\family tree\\config\\app.php:185)
+[stacktrace]
+#0 C:\\MAMP\\htdocs\\family tree\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\LoadConfiguration.php(39): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->loadConfigurationFiles()
+#1 C:\\MAMP\\htdocs\\family tree\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(237): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->bootstrap()
+#2 C:\\MAMP\\htdocs\\family tree\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(310): Illuminate\\Foundation\\Application->bootstrapWith()
+#3 C:\\MAMP\\htdocs\\family tree\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(127): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#4 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle()
+#5 {main}
+"} 
+[2023-06-15 07:12:30] laravel.EMERGENCY: Unable to create configured logger. Using emergency logger. {"exception":"[object] (InvalidArgumentException(code: 0): Log [] is not defined. at C:\\MAMP\\htdocs\\family tree\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php:200)
+[stacktrace]
+#0 C:\\MAMP\\htdocs\\family tree\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(125): Illuminate\\Log\\LogManager->resolve()
+#1 C:\\MAMP\\htdocs\\family tree\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(112): Illuminate\\Log\\LogManager->get()
+#2 C:\\MAMP\\htdocs\\family tree\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(590): Illuminate\\Log\\LogManager->driver()
+#3 C:\\MAMP\\htdocs\\family tree\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Exceptions\\Handler.php(247): Illuminate\\Log\\LogManager->error()
+#4 C:\\MAMP\\htdocs\\family tree\\app\\Exceptions\\Handler.php(37): Illuminate\\Foundation\\Exceptions\\Handler->report()
+#5 C:\\MAMP\\htdocs\\family tree\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(366): App\\Exceptions\\Handler->report()
+#6 C:\\MAMP\\htdocs\\family tree\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(131): Illuminate\\Foundation\\Console\\Kernel->reportException()
+#7 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle()
+#8 {main}
+"} 
+[2023-06-15 07:12:30] laravel.ERROR: syntax error, unexpected namespaced name "App\Providers\AppServiceProvider", expecting "]" {"exception":"[object] (ParseError(code: 0): syntax error, unexpected namespaced name \"App\\Providers\\AppServiceProvider\", expecting \"]\" at C:\\MAMP\\htdocs\\family tree\\config\\app.php:185)
+[stacktrace]
+#0 C:\\MAMP\\htdocs\\family tree\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\LoadConfiguration.php(39): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->loadConfigurationFiles()
+#1 C:\\MAMP\\htdocs\\family tree\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(237): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->bootstrap()
+#2 C:\\MAMP\\htdocs\\family tree\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(310): Illuminate\\Foundation\\Application->bootstrapWith()
+#3 C:\\MAMP\\htdocs\\family tree\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(127): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#4 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle()
+#5 {main}
+"} 
+[2023-06-15 07:12:31] laravel.EMERGENCY: Unable to create configured logger. Using emergency logger. {"exception":"[object] (InvalidArgumentException(code: 0): Log [] is not defined. at C:\\MAMP\\htdocs\\family tree\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php:200)
+[stacktrace]
+#0 C:\\MAMP\\htdocs\\family tree\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(125): Illuminate\\Log\\LogManager->resolve()
+#1 C:\\MAMP\\htdocs\\family tree\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(112): Illuminate\\Log\\LogManager->get()
+#2 C:\\MAMP\\htdocs\\family tree\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(590): Illuminate\\Log\\LogManager->driver()
+#3 C:\\MAMP\\htdocs\\family tree\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Exceptions\\Handler.php(247): Illuminate\\Log\\LogManager->error()
+#4 C:\\MAMP\\htdocs\\family tree\\app\\Exceptions\\Handler.php(37): Illuminate\\Foundation\\Exceptions\\Handler->report()
+#5 C:\\MAMP\\htdocs\\family tree\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(366): App\\Exceptions\\Handler->report()
+#6 C:\\MAMP\\htdocs\\family tree\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(131): Illuminate\\Foundation\\Console\\Kernel->reportException()
+#7 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle()
+#8 {main}
+"} 
+[2023-06-15 07:12:31] laravel.ERROR: syntax error, unexpected namespaced name "App\Providers\AppServiceProvider", expecting "]" {"exception":"[object] (ParseError(code: 0): syntax error, unexpected namespaced name \"App\\Providers\\AppServiceProvider\", expecting \"]\" at C:\\MAMP\\htdocs\\family tree\\config\\app.php:185)
+[stacktrace]
+#0 C:\\MAMP\\htdocs\\family tree\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\LoadConfiguration.php(39): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->loadConfigurationFiles()
+#1 C:\\MAMP\\htdocs\\family tree\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(237): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->bootstrap()
+#2 C:\\MAMP\\htdocs\\family tree\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(310): Illuminate\\Foundation\\Application->bootstrapWith()
+#3 C:\\MAMP\\htdocs\\family tree\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(127): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#4 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle()
+#5 {main}
+"} 
+[2023-06-15 07:12:31] laravel.EMERGENCY: Unable to create configured logger. Using emergency logger. {"exception":"[object] (InvalidArgumentException(code: 0): Log [] is not defined. at C:\\MAMP\\htdocs\\family tree\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php:200)
+[stacktrace]
+#0 C:\\MAMP\\htdocs\\family tree\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(125): Illuminate\\Log\\LogManager->resolve()
+#1 C:\\MAMP\\htdocs\\family tree\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(112): Illuminate\\Log\\LogManager->get()
+#2 C:\\MAMP\\htdocs\\family tree\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(590): Illuminate\\Log\\LogManager->driver()
+#3 C:\\MAMP\\htdocs\\family tree\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Exceptions\\Handler.php(247): Illuminate\\Log\\LogManager->error()
+#4 C:\\MAMP\\htdocs\\family tree\\app\\Exceptions\\Handler.php(37): Illuminate\\Foundation\\Exceptions\\Handler->report()
+#5 C:\\MAMP\\htdocs\\family tree\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(366): App\\Exceptions\\Handler->report()
+#6 C:\\MAMP\\htdocs\\family tree\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(131): Illuminate\\Foundation\\Console\\Kernel->reportException()
+#7 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle()
+#8 {main}
+"} 
+[2023-06-15 07:12:31] laravel.ERROR: syntax error, unexpected namespaced name "App\Providers\AppServiceProvider", expecting "]" {"exception":"[object] (ParseError(code: 0): syntax error, unexpected namespaced name \"App\\Providers\\AppServiceProvider\", expecting \"]\" at C:\\MAMP\\htdocs\\family tree\\config\\app.php:185)
+[stacktrace]
+#0 C:\\MAMP\\htdocs\\family tree\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\LoadConfiguration.php(39): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->loadConfigurationFiles()
+#1 C:\\MAMP\\htdocs\\family tree\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(237): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->bootstrap()
+#2 C:\\MAMP\\htdocs\\family tree\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(310): Illuminate\\Foundation\\Application->bootstrapWith()
+#3 C:\\MAMP\\htdocs\\family tree\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(127): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#4 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle()
+#5 {main}
+"} 
+[2023-06-15 07:12:31] laravel.EMERGENCY: Unable to create configured logger. Using emergency logger. {"exception":"[object] (InvalidArgumentException(code: 0): Log [] is not defined. at C:\\MAMP\\htdocs\\family tree\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php:200)
+[stacktrace]
+#0 C:\\MAMP\\htdocs\\family tree\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(125): Illuminate\\Log\\LogManager->resolve()
+#1 C:\\MAMP\\htdocs\\family tree\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(112): Illuminate\\Log\\LogManager->get()
+#2 C:\\MAMP\\htdocs\\family tree\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(590): Illuminate\\Log\\LogManager->driver()
+#3 C:\\MAMP\\htdocs\\family tree\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Exceptions\\Handler.php(247): Illuminate\\Log\\LogManager->error()
+#4 C:\\MAMP\\htdocs\\family tree\\app\\Exceptions\\Handler.php(37): Illuminate\\Foundation\\Exceptions\\Handler->report()
+#5 C:\\MAMP\\htdocs\\family tree\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(366): App\\Exceptions\\Handler->report()
+#6 C:\\MAMP\\htdocs\\family tree\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(131): Illuminate\\Foundation\\Console\\Kernel->reportException()
+#7 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle()
+#8 {main}
+"} 
+[2023-06-15 07:12:31] laravel.ERROR: syntax error, unexpected namespaced name "App\Providers\AppServiceProvider", expecting "]" {"exception":"[object] (ParseError(code: 0): syntax error, unexpected namespaced name \"App\\Providers\\AppServiceProvider\", expecting \"]\" at C:\\MAMP\\htdocs\\family tree\\config\\app.php:185)
+[stacktrace]
+#0 C:\\MAMP\\htdocs\\family tree\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\LoadConfiguration.php(39): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->loadConfigurationFiles()
+#1 C:\\MAMP\\htdocs\\family tree\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(237): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->bootstrap()
+#2 C:\\MAMP\\htdocs\\family tree\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(310): Illuminate\\Foundation\\Application->bootstrapWith()
+#3 C:\\MAMP\\htdocs\\family tree\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(127): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#4 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle()
+#5 {main}
+"} 
+[2023-06-15 07:12:32] laravel.EMERGENCY: Unable to create configured logger. Using emergency logger. {"exception":"[object] (InvalidArgumentException(code: 0): Log [] is not defined. at C:\\MAMP\\htdocs\\family tree\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php:200)
+[stacktrace]
+#0 C:\\MAMP\\htdocs\\family tree\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(125): Illuminate\\Log\\LogManager->resolve()
+#1 C:\\MAMP\\htdocs\\family tree\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(112): Illuminate\\Log\\LogManager->get()
+#2 C:\\MAMP\\htdocs\\family tree\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(590): Illuminate\\Log\\LogManager->driver()
+#3 C:\\MAMP\\htdocs\\family tree\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Exceptions\\Handler.php(247): Illuminate\\Log\\LogManager->error()
+#4 C:\\MAMP\\htdocs\\family tree\\app\\Exceptions\\Handler.php(37): Illuminate\\Foundation\\Exceptions\\Handler->report()
+#5 C:\\MAMP\\htdocs\\family tree\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(366): App\\Exceptions\\Handler->report()
+#6 C:\\MAMP\\htdocs\\family tree\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(131): Illuminate\\Foundation\\Console\\Kernel->reportException()
+#7 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle()
+#8 {main}
+"} 
+[2023-06-15 07:12:32] laravel.ERROR: syntax error, unexpected namespaced name "App\Providers\AppServiceProvider", expecting "]" {"exception":"[object] (ParseError(code: 0): syntax error, unexpected namespaced name \"App\\Providers\\AppServiceProvider\", expecting \"]\" at C:\\MAMP\\htdocs\\family tree\\config\\app.php:185)
+[stacktrace]
+#0 C:\\MAMP\\htdocs\\family tree\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\LoadConfiguration.php(39): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->loadConfigurationFiles()
+#1 C:\\MAMP\\htdocs\\family tree\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(237): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->bootstrap()
+#2 C:\\MAMP\\htdocs\\family tree\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(310): Illuminate\\Foundation\\Application->bootstrapWith()
+#3 C:\\MAMP\\htdocs\\family tree\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(127): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#4 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle()
+#5 {main}
+"} 
+[2023-06-15 07:12:32] laravel.EMERGENCY: Unable to create configured logger. Using emergency logger. {"exception":"[object] (InvalidArgumentException(code: 0): Log [] is not defined. at C:\\MAMP\\htdocs\\family tree\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php:200)
+[stacktrace]
+#0 C:\\MAMP\\htdocs\\family tree\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(125): Illuminate\\Log\\LogManager->resolve()
+#1 C:\\MAMP\\htdocs\\family tree\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(112): Illuminate\\Log\\LogManager->get()
+#2 C:\\MAMP\\htdocs\\family tree\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(590): Illuminate\\Log\\LogManager->driver()
+#3 C:\\MAMP\\htdocs\\family tree\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Exceptions\\Handler.php(247): Illuminate\\Log\\LogManager->error()
+#4 C:\\MAMP\\htdocs\\family tree\\app\\Exceptions\\Handler.php(37): Illuminate\\Foundation\\Exceptions\\Handler->report()
+#5 C:\\MAMP\\htdocs\\family tree\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(366): App\\Exceptions\\Handler->report()
+#6 C:\\MAMP\\htdocs\\family tree\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(131): Illuminate\\Foundation\\Console\\Kernel->reportException()
+#7 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle()
+#8 {main}
+"} 
+[2023-06-15 07:12:32] laravel.ERROR: syntax error, unexpected namespaced name "App\Providers\AppServiceProvider", expecting "]" {"exception":"[object] (ParseError(code: 0): syntax error, unexpected namespaced name \"App\\Providers\\AppServiceProvider\", expecting \"]\" at C:\\MAMP\\htdocs\\family tree\\config\\app.php:185)
+[stacktrace]
+#0 C:\\MAMP\\htdocs\\family tree\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\LoadConfiguration.php(39): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->loadConfigurationFiles()
+#1 C:\\MAMP\\htdocs\\family tree\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(237): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->bootstrap()
+#2 C:\\MAMP\\htdocs\\family tree\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(310): Illuminate\\Foundation\\Application->bootstrapWith()
+#3 C:\\MAMP\\htdocs\\family tree\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(127): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#4 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle()
+#5 {main}
+"} 
+[2023-06-15 07:12:33] laravel.EMERGENCY: Unable to create configured logger. Using emergency logger. {"exception":"[object] (InvalidArgumentException(code: 0): Log [] is not defined. at C:\\MAMP\\htdocs\\family tree\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php:200)
+[stacktrace]
+#0 C:\\MAMP\\htdocs\\family tree\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(125): Illuminate\\Log\\LogManager->resolve()
+#1 C:\\MAMP\\htdocs\\family tree\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(112): Illuminate\\Log\\LogManager->get()
+#2 C:\\MAMP\\htdocs\\family tree\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(590): Illuminate\\Log\\LogManager->driver()
+#3 C:\\MAMP\\htdocs\\family tree\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Exceptions\\Handler.php(247): Illuminate\\Log\\LogManager->error()
+#4 C:\\MAMP\\htdocs\\family tree\\app\\Exceptions\\Handler.php(37): Illuminate\\Foundation\\Exceptions\\Handler->report()
+#5 C:\\MAMP\\htdocs\\family tree\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(366): App\\Exceptions\\Handler->report()
+#6 C:\\MAMP\\htdocs\\family tree\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(131): Illuminate\\Foundation\\Console\\Kernel->reportException()
+#7 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle()
+#8 {main}
+"} 
+[2023-06-15 07:12:33] laravel.ERROR: syntax error, unexpected namespaced name "App\Providers\AppServiceProvider", expecting "]" {"exception":"[object] (ParseError(code: 0): syntax error, unexpected namespaced name \"App\\Providers\\AppServiceProvider\", expecting \"]\" at C:\\MAMP\\htdocs\\family tree\\config\\app.php:185)
+[stacktrace]
+#0 C:\\MAMP\\htdocs\\family tree\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\LoadConfiguration.php(39): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->loadConfigurationFiles()
+#1 C:\\MAMP\\htdocs\\family tree\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(237): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->bootstrap()
+#2 C:\\MAMP\\htdocs\\family tree\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(310): Illuminate\\Foundation\\Application->bootstrapWith()
+#3 C:\\MAMP\\htdocs\\family tree\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(127): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#4 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle()
+#5 {main}
+"} 
+[2023-06-15 07:12:33] laravel.EMERGENCY: Unable to create configured logger. Using emergency logger. {"exception":"[object] (InvalidArgumentException(code: 0): Log [] is not defined. at C:\\MAMP\\htdocs\\family tree\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php:200)
+[stacktrace]
+#0 C:\\MAMP\\htdocs\\family tree\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(125): Illuminate\\Log\\LogManager->resolve()
+#1 C:\\MAMP\\htdocs\\family tree\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(112): Illuminate\\Log\\LogManager->get()
+#2 C:\\MAMP\\htdocs\\family tree\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(590): Illuminate\\Log\\LogManager->driver()
+#3 C:\\MAMP\\htdocs\\family tree\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Exceptions\\Handler.php(247): Illuminate\\Log\\LogManager->error()
+#4 C:\\MAMP\\htdocs\\family tree\\app\\Exceptions\\Handler.php(37): Illuminate\\Foundation\\Exceptions\\Handler->report()
+#5 C:\\MAMP\\htdocs\\family tree\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(366): App\\Exceptions\\Handler->report()
+#6 C:\\MAMP\\htdocs\\family tree\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(131): Illuminate\\Foundation\\Console\\Kernel->reportException()
+#7 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle()
+#8 {main}
+"} 
+[2023-06-15 07:12:33] laravel.ERROR: syntax error, unexpected namespaced name "App\Providers\AppServiceProvider", expecting "]" {"exception":"[object] (ParseError(code: 0): syntax error, unexpected namespaced name \"App\\Providers\\AppServiceProvider\", expecting \"]\" at C:\\MAMP\\htdocs\\family tree\\config\\app.php:185)
+[stacktrace]
+#0 C:\\MAMP\\htdocs\\family tree\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\LoadConfiguration.php(39): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->loadConfigurationFiles()
+#1 C:\\MAMP\\htdocs\\family tree\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(237): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->bootstrap()
+#2 C:\\MAMP\\htdocs\\family tree\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(310): Illuminate\\Foundation\\Application->bootstrapWith()
+#3 C:\\MAMP\\htdocs\\family tree\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(127): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#4 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle()
+#5 {main}
+"} 
+[2023-06-15 07:12:33] laravel.EMERGENCY: Unable to create configured logger. Using emergency logger. {"exception":"[object] (InvalidArgumentException(code: 0): Log [] is not defined. at C:\\MAMP\\htdocs\\family tree\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php:200)
+[stacktrace]
+#0 C:\\MAMP\\htdocs\\family tree\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(125): Illuminate\\Log\\LogManager->resolve()
+#1 C:\\MAMP\\htdocs\\family tree\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(112): Illuminate\\Log\\LogManager->get()
+#2 C:\\MAMP\\htdocs\\family tree\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(590): Illuminate\\Log\\LogManager->driver()
+#3 C:\\MAMP\\htdocs\\family tree\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Exceptions\\Handler.php(247): Illuminate\\Log\\LogManager->error()
+#4 C:\\MAMP\\htdocs\\family tree\\app\\Exceptions\\Handler.php(37): Illuminate\\Foundation\\Exceptions\\Handler->report()
+#5 C:\\MAMP\\htdocs\\family tree\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(366): App\\Exceptions\\Handler->report()
+#6 C:\\MAMP\\htdocs\\family tree\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(131): Illuminate\\Foundation\\Console\\Kernel->reportException()
+#7 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle()
+#8 {main}
+"} 
+[2023-06-15 07:12:33] laravel.ERROR: syntax error, unexpected namespaced name "App\Providers\AppServiceProvider", expecting "]" {"exception":"[object] (ParseError(code: 0): syntax error, unexpected namespaced name \"App\\Providers\\AppServiceProvider\", expecting \"]\" at C:\\MAMP\\htdocs\\family tree\\config\\app.php:185)
+[stacktrace]
+#0 C:\\MAMP\\htdocs\\family tree\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\LoadConfiguration.php(39): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->loadConfigurationFiles()
+#1 C:\\MAMP\\htdocs\\family tree\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(237): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->bootstrap()
+#2 C:\\MAMP\\htdocs\\family tree\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(310): Illuminate\\Foundation\\Application->bootstrapWith()
+#3 C:\\MAMP\\htdocs\\family tree\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(127): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#4 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle()
+#5 {main}
+"} 
+[2023-06-15 07:12:33] laravel.EMERGENCY: Unable to create configured logger. Using emergency logger. {"exception":"[object] (InvalidArgumentException(code: 0): Log [] is not defined. at C:\\MAMP\\htdocs\\family tree\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php:200)
+[stacktrace]
+#0 C:\\MAMP\\htdocs\\family tree\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(125): Illuminate\\Log\\LogManager->resolve()
+#1 C:\\MAMP\\htdocs\\family tree\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(112): Illuminate\\Log\\LogManager->get()
+#2 C:\\MAMP\\htdocs\\family tree\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(590): Illuminate\\Log\\LogManager->driver()
+#3 C:\\MAMP\\htdocs\\family tree\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Exceptions\\Handler.php(247): Illuminate\\Log\\LogManager->error()
+#4 C:\\MAMP\\htdocs\\family tree\\app\\Exceptions\\Handler.php(37): Illuminate\\Foundation\\Exceptions\\Handler->report()
+#5 C:\\MAMP\\htdocs\\family tree\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(366): App\\Exceptions\\Handler->report()
+#6 C:\\MAMP\\htdocs\\family tree\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(131): Illuminate\\Foundation\\Console\\Kernel->reportException()
+#7 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle()
+#8 {main}
+"} 
+[2023-06-15 07:12:33] laravel.ERROR: syntax error, unexpected namespaced name "App\Providers\AppServiceProvider", expecting "]" {"exception":"[object] (ParseError(code: 0): syntax error, unexpected namespaced name \"App\\Providers\\AppServiceProvider\", expecting \"]\" at C:\\MAMP\\htdocs\\family tree\\config\\app.php:185)
+[stacktrace]
+#0 C:\\MAMP\\htdocs\\family tree\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\LoadConfiguration.php(39): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->loadConfigurationFiles()
+#1 C:\\MAMP\\htdocs\\family tree\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(237): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->bootstrap()
+#2 C:\\MAMP\\htdocs\\family tree\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(310): Illuminate\\Foundation\\Application->bootstrapWith()
+#3 C:\\MAMP\\htdocs\\family tree\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(127): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#4 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle()
+#5 {main}
+"} 
+[2023-06-15 07:12:34] laravel.EMERGENCY: Unable to create configured logger. Using emergency logger. {"exception":"[object] (InvalidArgumentException(code: 0): Log [] is not defined. at C:\\MAMP\\htdocs\\family tree\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php:200)
+[stacktrace]
+#0 C:\\MAMP\\htdocs\\family tree\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(125): Illuminate\\Log\\LogManager->resolve()
+#1 C:\\MAMP\\htdocs\\family tree\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(112): Illuminate\\Log\\LogManager->get()
+#2 C:\\MAMP\\htdocs\\family tree\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(590): Illuminate\\Log\\LogManager->driver()
+#3 C:\\MAMP\\htdocs\\family tree\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Exceptions\\Handler.php(247): Illuminate\\Log\\LogManager->error()
+#4 C:\\MAMP\\htdocs\\family tree\\app\\Exceptions\\Handler.php(37): Illuminate\\Foundation\\Exceptions\\Handler->report()
+#5 C:\\MAMP\\htdocs\\family tree\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(366): App\\Exceptions\\Handler->report()
+#6 C:\\MAMP\\htdocs\\family tree\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(131): Illuminate\\Foundation\\Console\\Kernel->reportException()
+#7 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle()
+#8 {main}
+"} 
+[2023-06-15 07:12:34] laravel.ERROR: syntax error, unexpected namespaced name "App\Providers\AppServiceProvider", expecting "]" {"exception":"[object] (ParseError(code: 0): syntax error, unexpected namespaced name \"App\\Providers\\AppServiceProvider\", expecting \"]\" at C:\\MAMP\\htdocs\\family tree\\config\\app.php:185)
+[stacktrace]
+#0 C:\\MAMP\\htdocs\\family tree\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\LoadConfiguration.php(39): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->loadConfigurationFiles()
+#1 C:\\MAMP\\htdocs\\family tree\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(237): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->bootstrap()
+#2 C:\\MAMP\\htdocs\\family tree\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(310): Illuminate\\Foundation\\Application->bootstrapWith()
+#3 C:\\MAMP\\htdocs\\family tree\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(127): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#4 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle()
+#5 {main}
+"} 
+[2023-06-15 07:12:34] laravel.EMERGENCY: Unable to create configured logger. Using emergency logger. {"exception":"[object] (InvalidArgumentException(code: 0): Log [] is not defined. at C:\\MAMP\\htdocs\\family tree\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php:200)
+[stacktrace]
+#0 C:\\MAMP\\htdocs\\family tree\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(125): Illuminate\\Log\\LogManager->resolve()
+#1 C:\\MAMP\\htdocs\\family tree\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(112): Illuminate\\Log\\LogManager->get()
+#2 C:\\MAMP\\htdocs\\family tree\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(590): Illuminate\\Log\\LogManager->driver()
+#3 C:\\MAMP\\htdocs\\family tree\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Exceptions\\Handler.php(247): Illuminate\\Log\\LogManager->error()
+#4 C:\\MAMP\\htdocs\\family tree\\app\\Exceptions\\Handler.php(37): Illuminate\\Foundation\\Exceptions\\Handler->report()
+#5 C:\\MAMP\\htdocs\\family tree\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(366): App\\Exceptions\\Handler->report()
+#6 C:\\MAMP\\htdocs\\family tree\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(131): Illuminate\\Foundation\\Console\\Kernel->reportException()
+#7 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle()
+#8 {main}
+"} 
+[2023-06-15 07:12:34] laravel.ERROR: syntax error, unexpected namespaced name "App\Providers\AppServiceProvider", expecting "]" {"exception":"[object] (ParseError(code: 0): syntax error, unexpected namespaced name \"App\\Providers\\AppServiceProvider\", expecting \"]\" at C:\\MAMP\\htdocs\\family tree\\config\\app.php:185)
+[stacktrace]
+#0 C:\\MAMP\\htdocs\\family tree\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\LoadConfiguration.php(39): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->loadConfigurationFiles()
+#1 C:\\MAMP\\htdocs\\family tree\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(237): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->bootstrap()
+#2 C:\\MAMP\\htdocs\\family tree\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(310): Illuminate\\Foundation\\Application->bootstrapWith()
+#3 C:\\MAMP\\htdocs\\family tree\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(127): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#4 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle()
+#5 {main}
+"} 
+[2023-06-15 07:12:34] laravel.EMERGENCY: Unable to create configured logger. Using emergency logger. {"exception":"[object] (InvalidArgumentException(code: 0): Log [] is not defined. at C:\\MAMP\\htdocs\\family tree\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php:200)
+[stacktrace]
+#0 C:\\MAMP\\htdocs\\family tree\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(125): Illuminate\\Log\\LogManager->resolve()
+#1 C:\\MAMP\\htdocs\\family tree\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(112): Illuminate\\Log\\LogManager->get()
+#2 C:\\MAMP\\htdocs\\family tree\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(590): Illuminate\\Log\\LogManager->driver()
+#3 C:\\MAMP\\htdocs\\family tree\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Exceptions\\Handler.php(247): Illuminate\\Log\\LogManager->error()
+#4 C:\\MAMP\\htdocs\\family tree\\app\\Exceptions\\Handler.php(37): Illuminate\\Foundation\\Exceptions\\Handler->report()
+#5 C:\\MAMP\\htdocs\\family tree\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(366): App\\Exceptions\\Handler->report()
+#6 C:\\MAMP\\htdocs\\family tree\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(131): Illuminate\\Foundation\\Console\\Kernel->reportException()
+#7 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle()
+#8 {main}
+"} 
+[2023-06-15 07:12:34] laravel.ERROR: syntax error, unexpected namespaced name "App\Providers\AppServiceProvider", expecting "]" {"exception":"[object] (ParseError(code: 0): syntax error, unexpected namespaced name \"App\\Providers\\AppServiceProvider\", expecting \"]\" at C:\\MAMP\\htdocs\\family tree\\config\\app.php:185)
+[stacktrace]
+#0 C:\\MAMP\\htdocs\\family tree\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\LoadConfiguration.php(39): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->loadConfigurationFiles()
+#1 C:\\MAMP\\htdocs\\family tree\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(237): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->bootstrap()
+#2 C:\\MAMP\\htdocs\\family tree\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(310): Illuminate\\Foundation\\Application->bootstrapWith()
+#3 C:\\MAMP\\htdocs\\family tree\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(127): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#4 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle()
+#5 {main}
+"} 
+[2023-06-15 07:12:34] laravel.EMERGENCY: Unable to create configured logger. Using emergency logger. {"exception":"[object] (InvalidArgumentException(code: 0): Log [] is not defined. at C:\\MAMP\\htdocs\\family tree\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php:200)
+[stacktrace]
+#0 C:\\MAMP\\htdocs\\family tree\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(125): Illuminate\\Log\\LogManager->resolve()
+#1 C:\\MAMP\\htdocs\\family tree\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(112): Illuminate\\Log\\LogManager->get()
+#2 C:\\MAMP\\htdocs\\family tree\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(590): Illuminate\\Log\\LogManager->driver()
+#3 C:\\MAMP\\htdocs\\family tree\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Exceptions\\Handler.php(247): Illuminate\\Log\\LogManager->error()
+#4 C:\\MAMP\\htdocs\\family tree\\app\\Exceptions\\Handler.php(37): Illuminate\\Foundation\\Exceptions\\Handler->report()
+#5 C:\\MAMP\\htdocs\\family tree\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(366): App\\Exceptions\\Handler->report()
+#6 C:\\MAMP\\htdocs\\family tree\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(131): Illuminate\\Foundation\\Console\\Kernel->reportException()
+#7 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle()
+#8 {main}
+"} 
+[2023-06-15 07:12:34] laravel.ERROR: syntax error, unexpected namespaced name "App\Providers\AppServiceProvider", expecting "]" {"exception":"[object] (ParseError(code: 0): syntax error, unexpected namespaced name \"App\\Providers\\AppServiceProvider\", expecting \"]\" at C:\\MAMP\\htdocs\\family tree\\config\\app.php:185)
+[stacktrace]
+#0 C:\\MAMP\\htdocs\\family tree\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\LoadConfiguration.php(39): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->loadConfigurationFiles()
+#1 C:\\MAMP\\htdocs\\family tree\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(237): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->bootstrap()
+#2 C:\\MAMP\\htdocs\\family tree\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(310): Illuminate\\Foundation\\Application->bootstrapWith()
+#3 C:\\MAMP\\htdocs\\family tree\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(127): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#4 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle()
+#5 {main}
+"} 
+[2023-06-15 07:12:34] laravel.EMERGENCY: Unable to create configured logger. Using emergency logger. {"exception":"[object] (InvalidArgumentException(code: 0): Log [] is not defined. at C:\\MAMP\\htdocs\\family tree\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php:200)
+[stacktrace]
+#0 C:\\MAMP\\htdocs\\family tree\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(125): Illuminate\\Log\\LogManager->resolve()
+#1 C:\\MAMP\\htdocs\\family tree\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(112): Illuminate\\Log\\LogManager->get()
+#2 C:\\MAMP\\htdocs\\family tree\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(590): Illuminate\\Log\\LogManager->driver()
+#3 C:\\MAMP\\htdocs\\family tree\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Exceptions\\Handler.php(247): Illuminate\\Log\\LogManager->error()
+#4 C:\\MAMP\\htdocs\\family tree\\app\\Exceptions\\Handler.php(37): Illuminate\\Foundation\\Exceptions\\Handler->report()
+#5 C:\\MAMP\\htdocs\\family tree\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(366): App\\Exceptions\\Handler->report()
+#6 C:\\MAMP\\htdocs\\family tree\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(131): Illuminate\\Foundation\\Console\\Kernel->reportException()
+#7 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle()
+#8 {main}
+"} 
+[2023-06-15 07:12:34] laravel.ERROR: syntax error, unexpected namespaced name "App\Providers\AppServiceProvider", expecting "]" {"exception":"[object] (ParseError(code: 0): syntax error, unexpected namespaced name \"App\\Providers\\AppServiceProvider\", expecting \"]\" at C:\\MAMP\\htdocs\\family tree\\config\\app.php:185)
+[stacktrace]
+#0 C:\\MAMP\\htdocs\\family tree\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\LoadConfiguration.php(39): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->loadConfigurationFiles()
+#1 C:\\MAMP\\htdocs\\family tree\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(237): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->bootstrap()
+#2 C:\\MAMP\\htdocs\\family tree\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(310): Illuminate\\Foundation\\Application->bootstrapWith()
+#3 C:\\MAMP\\htdocs\\family tree\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(127): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#4 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle()
+#5 {main}
+"} 
+[2023-06-15 07:12:35] laravel.EMERGENCY: Unable to create configured logger. Using emergency logger. {"exception":"[object] (InvalidArgumentException(code: 0): Log [] is not defined. at C:\\MAMP\\htdocs\\family tree\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php:200)
+[stacktrace]
+#0 C:\\MAMP\\htdocs\\family tree\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(125): Illuminate\\Log\\LogManager->resolve()
+#1 C:\\MAMP\\htdocs\\family tree\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(112): Illuminate\\Log\\LogManager->get()
+#2 C:\\MAMP\\htdocs\\family tree\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(590): Illuminate\\Log\\LogManager->driver()
+#3 C:\\MAMP\\htdocs\\family tree\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Exceptions\\Handler.php(247): Illuminate\\Log\\LogManager->error()
+#4 C:\\MAMP\\htdocs\\family tree\\app\\Exceptions\\Handler.php(37): Illuminate\\Foundation\\Exceptions\\Handler->report()
+#5 C:\\MAMP\\htdocs\\family tree\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(366): App\\Exceptions\\Handler->report()
+#6 C:\\MAMP\\htdocs\\family tree\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(131): Illuminate\\Foundation\\Console\\Kernel->reportException()
+#7 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle()
+#8 {main}
+"} 
+[2023-06-15 07:12:35] laravel.ERROR: syntax error, unexpected namespaced name "App\Providers\AppServiceProvider", expecting "]" {"exception":"[object] (ParseError(code: 0): syntax error, unexpected namespaced name \"App\\Providers\\AppServiceProvider\", expecting \"]\" at C:\\MAMP\\htdocs\\family tree\\config\\app.php:185)
+[stacktrace]
+#0 C:\\MAMP\\htdocs\\family tree\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\LoadConfiguration.php(39): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->loadConfigurationFiles()
+#1 C:\\MAMP\\htdocs\\family tree\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(237): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->bootstrap()
+#2 C:\\MAMP\\htdocs\\family tree\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(310): Illuminate\\Foundation\\Application->bootstrapWith()
+#3 C:\\MAMP\\htdocs\\family tree\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(127): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#4 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle()
+#5 {main}
+"} 
+[2023-06-15 07:12:35] laravel.EMERGENCY: Unable to create configured logger. Using emergency logger. {"exception":"[object] (InvalidArgumentException(code: 0): Log [] is not defined. at C:\\MAMP\\htdocs\\family tree\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php:200)
+[stacktrace]
+#0 C:\\MAMP\\htdocs\\family tree\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(125): Illuminate\\Log\\LogManager->resolve()
+#1 C:\\MAMP\\htdocs\\family tree\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(112): Illuminate\\Log\\LogManager->get()
+#2 C:\\MAMP\\htdocs\\family tree\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(590): Illuminate\\Log\\LogManager->driver()
+#3 C:\\MAMP\\htdocs\\family tree\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Exceptions\\Handler.php(247): Illuminate\\Log\\LogManager->error()
+#4 C:\\MAMP\\htdocs\\family tree\\app\\Exceptions\\Handler.php(37): Illuminate\\Foundation\\Exceptions\\Handler->report()
+#5 C:\\MAMP\\htdocs\\family tree\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(366): App\\Exceptions\\Handler->report()
+#6 C:\\MAMP\\htdocs\\family tree\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(131): Illuminate\\Foundation\\Console\\Kernel->reportException()
+#7 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle()
+#8 {main}
+"} 
+[2023-06-15 07:12:35] laravel.ERROR: syntax error, unexpected namespaced name "App\Providers\AppServiceProvider", expecting "]" {"exception":"[object] (ParseError(code: 0): syntax error, unexpected namespaced name \"App\\Providers\\AppServiceProvider\", expecting \"]\" at C:\\MAMP\\htdocs\\family tree\\config\\app.php:185)
+[stacktrace]
+#0 C:\\MAMP\\htdocs\\family tree\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\LoadConfiguration.php(39): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->loadConfigurationFiles()
+#1 C:\\MAMP\\htdocs\\family tree\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(237): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->bootstrap()
+#2 C:\\MAMP\\htdocs\\family tree\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(310): Illuminate\\Foundation\\Application->bootstrapWith()
+#3 C:\\MAMP\\htdocs\\family tree\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(127): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#4 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle()
+#5 {main}
+"} 
+[2023-06-15 07:12:35] laravel.EMERGENCY: Unable to create configured logger. Using emergency logger. {"exception":"[object] (InvalidArgumentException(code: 0): Log [] is not defined. at C:\\MAMP\\htdocs\\family tree\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php:200)
+[stacktrace]
+#0 C:\\MAMP\\htdocs\\family tree\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(125): Illuminate\\Log\\LogManager->resolve()
+#1 C:\\MAMP\\htdocs\\family tree\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(112): Illuminate\\Log\\LogManager->get()
+#2 C:\\MAMP\\htdocs\\family tree\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(590): Illuminate\\Log\\LogManager->driver()
+#3 C:\\MAMP\\htdocs\\family tree\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Exceptions\\Handler.php(247): Illuminate\\Log\\LogManager->error()
+#4 C:\\MAMP\\htdocs\\family tree\\app\\Exceptions\\Handler.php(37): Illuminate\\Foundation\\Exceptions\\Handler->report()
+#5 C:\\MAMP\\htdocs\\family tree\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(366): App\\Exceptions\\Handler->report()
+#6 C:\\MAMP\\htdocs\\family tree\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(131): Illuminate\\Foundation\\Console\\Kernel->reportException()
+#7 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle()
+#8 {main}
+"} 
+[2023-06-15 07:12:35] laravel.ERROR: syntax error, unexpected namespaced name "App\Providers\AppServiceProvider", expecting "]" {"exception":"[object] (ParseError(code: 0): syntax error, unexpected namespaced name \"App\\Providers\\AppServiceProvider\", expecting \"]\" at C:\\MAMP\\htdocs\\family tree\\config\\app.php:185)
+[stacktrace]
+#0 C:\\MAMP\\htdocs\\family tree\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\LoadConfiguration.php(39): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->loadConfigurationFiles()
+#1 C:\\MAMP\\htdocs\\family tree\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(237): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->bootstrap()
+#2 C:\\MAMP\\htdocs\\family tree\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(310): Illuminate\\Foundation\\Application->bootstrapWith()
+#3 C:\\MAMP\\htdocs\\family tree\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(127): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#4 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle()
+#5 {main}
+"} 
+[2023-06-15 07:12:36] laravel.EMERGENCY: Unable to create configured logger. Using emergency logger. {"exception":"[object] (InvalidArgumentException(code: 0): Log [] is not defined. at C:\\MAMP\\htdocs\\family tree\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php:200)
+[stacktrace]
+#0 C:\\MAMP\\htdocs\\family tree\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(125): Illuminate\\Log\\LogManager->resolve()
+#1 C:\\MAMP\\htdocs\\family tree\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(112): Illuminate\\Log\\LogManager->get()
+#2 C:\\MAMP\\htdocs\\family tree\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(590): Illuminate\\Log\\LogManager->driver()
+#3 C:\\MAMP\\htdocs\\family tree\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Exceptions\\Handler.php(247): Illuminate\\Log\\LogManager->error()
+#4 C:\\MAMP\\htdocs\\family tree\\app\\Exceptions\\Handler.php(37): Illuminate\\Foundation\\Exceptions\\Handler->report()
+#5 C:\\MAMP\\htdocs\\family tree\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(366): App\\Exceptions\\Handler->report()
+#6 C:\\MAMP\\htdocs\\family tree\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(131): Illuminate\\Foundation\\Console\\Kernel->reportException()
+#7 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle()
+#8 {main}
+"} 
+[2023-06-15 07:12:36] laravel.ERROR: syntax error, unexpected namespaced name "App\Providers\AppServiceProvider", expecting "]" {"exception":"[object] (ParseError(code: 0): syntax error, unexpected namespaced name \"App\\Providers\\AppServiceProvider\", expecting \"]\" at C:\\MAMP\\htdocs\\family tree\\config\\app.php:185)
+[stacktrace]
+#0 C:\\MAMP\\htdocs\\family tree\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\LoadConfiguration.php(39): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->loadConfigurationFiles()
+#1 C:\\MAMP\\htdocs\\family tree\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(237): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->bootstrap()
+#2 C:\\MAMP\\htdocs\\family tree\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(310): Illuminate\\Foundation\\Application->bootstrapWith()
+#3 C:\\MAMP\\htdocs\\family tree\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(127): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#4 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle()
+#5 {main}
+"} 
+[2023-06-15 07:12:36] laravel.EMERGENCY: Unable to create configured logger. Using emergency logger. {"exception":"[object] (InvalidArgumentException(code: 0): Log [] is not defined. at C:\\MAMP\\htdocs\\family tree\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php:200)
+[stacktrace]
+#0 C:\\MAMP\\htdocs\\family tree\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(125): Illuminate\\Log\\LogManager->resolve()
+#1 C:\\MAMP\\htdocs\\family tree\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(112): Illuminate\\Log\\LogManager->get()
+#2 C:\\MAMP\\htdocs\\family tree\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(590): Illuminate\\Log\\LogManager->driver()
+#3 C:\\MAMP\\htdocs\\family tree\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Exceptions\\Handler.php(247): Illuminate\\Log\\LogManager->error()
+#4 C:\\MAMP\\htdocs\\family tree\\app\\Exceptions\\Handler.php(37): Illuminate\\Foundation\\Exceptions\\Handler->report()
+#5 C:\\MAMP\\htdocs\\family tree\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(366): App\\Exceptions\\Handler->report()
+#6 C:\\MAMP\\htdocs\\family tree\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(131): Illuminate\\Foundation\\Console\\Kernel->reportException()
+#7 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle()
+#8 {main}
+"} 
+[2023-06-15 07:12:36] laravel.ERROR: syntax error, unexpected namespaced name "App\Providers\AppServiceProvider", expecting "]" {"exception":"[object] (ParseError(code: 0): syntax error, unexpected namespaced name \"App\\Providers\\AppServiceProvider\", expecting \"]\" at C:\\MAMP\\htdocs\\family tree\\config\\app.php:185)
+[stacktrace]
+#0 C:\\MAMP\\htdocs\\family tree\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\LoadConfiguration.php(39): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->loadConfigurationFiles()
+#1 C:\\MAMP\\htdocs\\family tree\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(237): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->bootstrap()
+#2 C:\\MAMP\\htdocs\\family tree\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(310): Illuminate\\Foundation\\Application->bootstrapWith()
+#3 C:\\MAMP\\htdocs\\family tree\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(127): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#4 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle()
+#5 {main}
+"} 
+[2023-06-15 07:12:36] laravel.EMERGENCY: Unable to create configured logger. Using emergency logger. {"exception":"[object] (InvalidArgumentException(code: 0): Log [] is not defined. at C:\\MAMP\\htdocs\\family tree\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php:200)
+[stacktrace]
+#0 C:\\MAMP\\htdocs\\family tree\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(125): Illuminate\\Log\\LogManager->resolve()
+#1 C:\\MAMP\\htdocs\\family tree\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(112): Illuminate\\Log\\LogManager->get()
+#2 C:\\MAMP\\htdocs\\family tree\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(590): Illuminate\\Log\\LogManager->driver()
+#3 C:\\MAMP\\htdocs\\family tree\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Exceptions\\Handler.php(247): Illuminate\\Log\\LogManager->error()
+#4 C:\\MAMP\\htdocs\\family tree\\app\\Exceptions\\Handler.php(37): Illuminate\\Foundation\\Exceptions\\Handler->report()
+#5 C:\\MAMP\\htdocs\\family tree\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(366): App\\Exceptions\\Handler->report()
+#6 C:\\MAMP\\htdocs\\family tree\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(131): Illuminate\\Foundation\\Console\\Kernel->reportException()
+#7 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle()
+#8 {main}
+"} 
+[2023-06-15 07:12:36] laravel.ERROR: syntax error, unexpected namespaced name "App\Providers\AppServiceProvider", expecting "]" {"exception":"[object] (ParseError(code: 0): syntax error, unexpected namespaced name \"App\\Providers\\AppServiceProvider\", expecting \"]\" at C:\\MAMP\\htdocs\\family tree\\config\\app.php:185)
+[stacktrace]
+#0 C:\\MAMP\\htdocs\\family tree\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\LoadConfiguration.php(39): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->loadConfigurationFiles()
+#1 C:\\MAMP\\htdocs\\family tree\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(237): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->bootstrap()
+#2 C:\\MAMP\\htdocs\\family tree\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(310): Illuminate\\Foundation\\Application->bootstrapWith()
+#3 C:\\MAMP\\htdocs\\family tree\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(127): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#4 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle()
+#5 {main}
+"} 
+[2023-06-15 07:12:37] laravel.EMERGENCY: Unable to create configured logger. Using emergency logger. {"exception":"[object] (InvalidArgumentException(code: 0): Log [] is not defined. at C:\\MAMP\\htdocs\\family tree\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php:200)
+[stacktrace]
+#0 C:\\MAMP\\htdocs\\family tree\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(125): Illuminate\\Log\\LogManager->resolve()
+#1 C:\\MAMP\\htdocs\\family tree\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(112): Illuminate\\Log\\LogManager->get()
+#2 C:\\MAMP\\htdocs\\family tree\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(590): Illuminate\\Log\\LogManager->driver()
+#3 C:\\MAMP\\htdocs\\family tree\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Exceptions\\Handler.php(247): Illuminate\\Log\\LogManager->error()
+#4 C:\\MAMP\\htdocs\\family tree\\app\\Exceptions\\Handler.php(37): Illuminate\\Foundation\\Exceptions\\Handler->report()
+#5 C:\\MAMP\\htdocs\\family tree\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(366): App\\Exceptions\\Handler->report()
+#6 C:\\MAMP\\htdocs\\family tree\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(131): Illuminate\\Foundation\\Console\\Kernel->reportException()
+#7 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle()
+#8 {main}
+"} 
+[2023-06-15 07:12:37] laravel.ERROR: syntax error, unexpected namespaced name "App\Providers\AppServiceProvider", expecting "]" {"exception":"[object] (ParseError(code: 0): syntax error, unexpected namespaced name \"App\\Providers\\AppServiceProvider\", expecting \"]\" at C:\\MAMP\\htdocs\\family tree\\config\\app.php:185)
+[stacktrace]
+#0 C:\\MAMP\\htdocs\\family tree\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\LoadConfiguration.php(39): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->loadConfigurationFiles()
+#1 C:\\MAMP\\htdocs\\family tree\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(237): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->bootstrap()
+#2 C:\\MAMP\\htdocs\\family tree\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(310): Illuminate\\Foundation\\Application->bootstrapWith()
+#3 C:\\MAMP\\htdocs\\family tree\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(127): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#4 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle()
+#5 {main}
+"} 
+[2023-06-15 07:12:37] laravel.EMERGENCY: Unable to create configured logger. Using emergency logger. {"exception":"[object] (InvalidArgumentException(code: 0): Log [] is not defined. at C:\\MAMP\\htdocs\\family tree\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php:200)
+[stacktrace]
+#0 C:\\MAMP\\htdocs\\family tree\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(125): Illuminate\\Log\\LogManager->resolve()
+#1 C:\\MAMP\\htdocs\\family tree\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(112): Illuminate\\Log\\LogManager->get()
+#2 C:\\MAMP\\htdocs\\family tree\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(590): Illuminate\\Log\\LogManager->driver()
+#3 C:\\MAMP\\htdocs\\family tree\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Exceptions\\Handler.php(247): Illuminate\\Log\\LogManager->error()
+#4 C:\\MAMP\\htdocs\\family tree\\app\\Exceptions\\Handler.php(37): Illuminate\\Foundation\\Exceptions\\Handler->report()
+#5 C:\\MAMP\\htdocs\\family tree\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(366): App\\Exceptions\\Handler->report()
+#6 C:\\MAMP\\htdocs\\family tree\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(131): Illuminate\\Foundation\\Console\\Kernel->reportException()
+#7 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle()
+#8 {main}
+"} 
+[2023-06-15 07:12:37] laravel.ERROR: syntax error, unexpected namespaced name "App\Providers\AppServiceProvider", expecting "]" {"exception":"[object] (ParseError(code: 0): syntax error, unexpected namespaced name \"App\\Providers\\AppServiceProvider\", expecting \"]\" at C:\\MAMP\\htdocs\\family tree\\config\\app.php:185)
+[stacktrace]
+#0 C:\\MAMP\\htdocs\\family tree\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\LoadConfiguration.php(39): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->loadConfigurationFiles()
+#1 C:\\MAMP\\htdocs\\family tree\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(237): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->bootstrap()
+#2 C:\\MAMP\\htdocs\\family tree\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(310): Illuminate\\Foundation\\Application->bootstrapWith()
+#3 C:\\MAMP\\htdocs\\family tree\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(127): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#4 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle()
+#5 {main}
+"} 
