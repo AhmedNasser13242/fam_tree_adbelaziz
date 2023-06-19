@@ -59,20 +59,30 @@ class ProjectController extends Controller
             $profileImage = date('YmdHis') . "." . $image->getClientOriginalExtension();
             $image->move($destinationPath, $profileImage);
             $input = "$profileImage";
+            $postData = [
+                'user_id' => $request->user_id,
+                'company_phone' => $request->company_phone,
+                'company_facebook' => $request->company_facebook,
+                'company_twitter' => $request->company_twitter,
+                'company_instagram' => $request->company_instagram,
+                'company_links' => $request->company_links,
+                'company_name' => $request->company_name,
+                'company_address' => $request->company_address,
+                'company_image' => $input
+            ];
         }else{
-            unset($input['company_image']);
+            $postData = [
+                'user_id' => $request->user_id,
+                'company_phone' => $request->company_phone,
+                'company_facebook' => $request->company_facebook,
+                'company_twitter' => $request->company_twitter,
+                'company_instagram' => $request->company_instagram,
+                'company_links' => $request->company_links,
+                'company_name' => $request->company_name,
+                'company_address' => $request->company_address,
+            ];
         }
-        $postData = [
-        'user_id' => $request->user_id,
-        'company_phone' => $request->company_phone,
-        'company_facebook' => $request->company_facebook,
-        'company_twitter' => $request->company_twitter,
-        'company_instagram' => $request->company_instagram,
-        'company_links' => $request->company_links,
-        'company_name' => $request->company_name,
-        'company_address' => $request->company_address,
-        'company_image' => $input
-    ];
+
             
         Project::findOrFail($project_id)->update($postData);
         return redirect()->route('profile');
@@ -80,5 +90,11 @@ class ProjectController extends Controller
     public function DeleteCompany($id){
         Project::findOrFail($id)->delete();
         return redirect()->back();
+    }
+
+
+    public function AllCompany(){
+        $projects = project::latest()->get();
+        return view('users.project.project_all',compact('projects'));
     }
 }

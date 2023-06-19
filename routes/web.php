@@ -70,9 +70,21 @@ Route::group(['middleware' => 'admin'], function () {
 //Company Route
 Route::controller(ProjectController::class)->group(function(){
     Route::get('/view/company/{user}','ViewCompany')->name('view.company');
+    Route::get('/all/company/','AllCompany')->name('all.company');
     Route::get('/add/company/{id}','AddCompany')->name('add.company');
     Route::post('/store/company','StoreCompany')->name('store.company');
     Route::get('/edit/company/{id}','EditCompany')->name('edit.company');
     Route::post('/update/company','UpdateCompany')->name('update.company');
     Route::get('/delete/company/{id}','DeleteCompany')->name('delete.company');
+});
+
+//Memory Route
+Route::controller(MemoryController::class)->group(function(){
+    Route::get('/all/memory', 'AllMemory')->name('all.memory');
+    Route::get('/view/memory/{user}', 'ViewMemory')->name('view.memory');
+    Route::get('/add/memory/{id}', 'AddMemory')->name('add.memory');
+    Route::post('/store/memory/', 'StoreMemory')->name('store.memory');
+    Route::get('/edit/memory/{id}', 'EditMemory')->name('edit.memory');
+    Route::post('/update/memory', 'UpdateMemory')->name('update.memory');
+    Route::get('/delete/memory/{id}', 'DeleteMemory')->name('delete.memory');
 });

@@ -55,7 +55,7 @@
                 </span>
             </a>
             <a href="javascript:void(0);" class="layout-menu-toggle menu-link text-large ms-auto d-block d-xl-none">
-                <i class="align-middle bx bx-chevron-left bx-sm"></i>
+                {{-- <i class="align-middle bx bx-chevron-left bx-sm"></i> --}}
             </a>
         </div>
         <div class="menu-inner-shadow"></div>
@@ -68,7 +68,7 @@
             </li>
             <li class="menu-item">
                 <a href="#" class="menu-link menu-toggle">
-                    <i class='bx bxs-copy-alt bx-tada' style='color:#29787a'></i>
+                    <i class='bx bxs-user bx-tada' style='color:#29787a'></i>
                     <div data-i18n="Layouts">حسابي</div>
                 </a>
 
@@ -92,6 +92,9 @@
                                 <div data-i18n="Without navbar">ملفي</div>
                             </a>
                         </li>
+                        <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
+                            {{ csrf_field() }}
+                        </form>
                         <li class="menu-item">
                             <a href="{{ route('logout') }}" class="menu-link">
                                 <div data-i18n="Without navbar"
@@ -100,9 +103,6 @@
                                     تسجيل خروج</div>
                             </a>
                         </li>
-                        <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
-                            {{ csrf_field() }}
-                        </form>
                         <li class="menu-item">
                             <a href="{{ route('password_change') }}" class="menu-link">
                                 <div data-i18n="Without navbar">تغيير كلمة المرور</div>
@@ -115,14 +115,26 @@
             </li>
             <li class="menu-item">
                 <a href="{{ route('birthdays.index') }}" class="menu-link">
-                    <i class='bx bxs-copy-alt bx-tada' style='color:#29787a'></i>
+                    <i class='bx bx-party bx-tada' style='color:#29787a'></i>
                     <div data-i18n="Layouts">اعياد ميلاد</div>
                 </a>
             </li>
             <li class="menu-item">
                 <a href="{{ route('users.search') }}" class="menu-link">
-                    <i class='bx bxs-copy-alt bx-tada' style='color:#29787a'></i>
+                    <i class='bx bx-search-alt-2 bx-tada' style='color:#29787a'></i>
                     <div data-i18n="Layouts">تبحث عن عائلتك</div>
+                </a>
+            </li>
+            <li class="menu-item">
+                <a href="{{ route('all.company') }}" class="menu-link">
+                    <i class='bx bxs-component bx-tada' style='color:#29787a'></i>
+                    <div data-i18n="Layouts">المشاريع</div>
+                </a>
+            </li>
+            <li class="menu-item">
+                <a href="{{ route('all.memory') }}" class="menu-link">
+                    <i class='bx bx-tv bx-tada' style='color:#29787a'></i>
+                    <div data-i18n="Layouts">ذكريات ومواقف</div>
                 </a>
             </li>
         </ul>

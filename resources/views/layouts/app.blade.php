@@ -54,6 +54,15 @@
         .page-header {
             margin-top: 0px;
         }
+
+        /* * {
+            overflow-x: hidden;
+        } */
+
+        .row {
+            margin-right: -20px;
+            margin-left: -10px;
+        }
     </style>
 </head>
 

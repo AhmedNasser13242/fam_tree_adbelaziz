@@ -17,10 +17,10 @@
                             'value' => $user->father_id,
                         ]) !!}
                         <div class="input-group">
-                            {{ Form::text('set_father', null, ['class' => 'form-control input-sm', 'placeholder' => __('app.enter_new_name')]) }}
+                            {{ Form::text('set_father', null, ['class' => 'form-control input-sm ', 'placeholder' => __('app.enter_new_name')]) }}
                             <span class="input-group-btn">
-                                {{ Form::submit(__('app.update'), ['class' => 'btn btn-info btn-sm', 'id' => 'set_father_button']) }}
-                                {{ link_to_route('users.show', __('app.cancel'), [$user->id], ['class' => 'btn btn-default btn-sm']) }}
+                                {{ Form::submit(__('app.update'), ['class' => 'btn btn-info btn-sm  btn btn-info', 'id' => 'set_father_button']) }}
+                                {{ link_to_route('users.show', __('app.cancel'), [$user->id], ['class' => 'btn btn-default btn-sm  btn btn-danger']) }}
                             </span>
                         </div>
                         {{ Form::close() }}
@@ -28,7 +28,7 @@
                         {{ $user->fatherLink() }}
                         <div class="pull-right">
                             @if (Auth::user()->role == 'admin')
-                                {{ link_to_route('users.show', __('user.set_father'), [$user->id, 'action' => 'set_father'], ['class' => 'btn btn-link btn-xs']) }}
+                                {{ link_to_route('users.show', __('user.set_father'), [$user->id, 'action' => 'set_father'], ['class' => 'btn btn-link btn-xs  btn btn-info']) }}
                             @else
                                 <div></div>
                             @endif
@@ -51,8 +51,8 @@
                         <div class="input-group">
                             {{ Form::text('set_mother', null, ['class' => 'form-control input-sm', 'placeholder' => __('app.enter_new_name')]) }}
                             <span class="input-group-btn">
-                                {{ Form::submit(__('app.update'), ['class' => 'btn btn-info btn-sm', 'id' => 'set_mother_button']) }}
-                                {{ link_to_route('users.show', __('app.cancel'), [$user->id], ['class' => 'btn btn-default btn-sm']) }}
+                                {{ Form::submit(__('app.update'), ['class' => 'btn btn-info btn-sm  btn btn-info', 'id' => 'set_mother_button']) }}
+                                {{ link_to_route('users.show', __('app.cancel'), [$user->id], ['class' => 'btn btn-default btn-sm  btn btn-danger']) }}
                             </span>
                         </div>
                         {{ Form::close() }}
@@ -60,7 +60,7 @@
                         {{ $user->motherLink() }}
                         <div class="pull-right">
                             @if (Auth::user()->role == 'admin')
-                                {{ link_to_route('users.show', __('user.set_mother'), [$user->id, 'action' => 'set_mother'], ['class' => 'btn btn-link btn-xs']) }}
+                                {{ link_to_route('users.show', __('user.set_mother'), [$user->id, 'action' => 'set_mother'], ['class' => 'btn btn-link btn-xs  btn btn-info']) }}
                             @else
                                 <div></div>
                             @endif
@@ -77,7 +77,7 @@
                     <div class="pull-right">
                         @unless (request('action') == 'set_parent')
                             @if (Auth::user()->role == 'admin')
-                                {{ link_to_route('users.show', __('user.set_parent'), [$user->id, 'action' => 'set_parent'], ['class' => 'btn btn-link btn-xs']) }}
+                                {{ link_to_route('users.show', __('user.set_parent'), [$user->id, 'action' => 'set_parent'], ['class' => 'btn btn-link btn-xs  btn btn-info']) }}
                             @else
                                 <div></div>
                             @endif
@@ -97,9 +97,9 @@
                             'value' => $user->parent_id,
                             'placeholder' => __('app.select_from_existing_couples'),
                         ]) !!}
-                        {{ Form::submit(__('app.update'), ['class' => 'btn btn-info btn-sm', 'id' => 'set_parent_button']) }}
+                        {{ Form::submit(__('app.update'), ['class' => 'btn btn-info btn-sm  btn btn-info', 'id' => 'set_parent_button']) }}
                         @if (Auth::user()->role == 'admin')
-                            {{ link_to_route('users.show', __('app.cancel'), $user, ['class' => 'btn btn-default btn-sm']) }}
+                            {{ link_to_route('users.show', __('app.cancel'), $user, ['class' => 'btn btn-default btn-sm  btn btn-danger']) }}
                         @else
                             <div></div>
                         @endif
@@ -116,7 +116,7 @@
                         <div class="pull-right">
                             @unless (request('action') == 'add_spouse')
                                 @if (Auth::user()->role == 'admin')
-                                    {{ link_to_route('users.show', __('user.add_wife'), [$user->id, 'action' => 'add_spouse'], ['class' => 'btn btn-link btn-xs']) }}
+                                    {{ link_to_route('users.show', __('user.add_wife'), [$user->id, 'action' => 'add_spouse'], ['class' => 'btn btn-link btn-xs btn btn-info']) }}
                                 @else
                                     <div></div>
                                 @endif
@@ -149,9 +149,9 @@
                                         </div>
                                     </div>
                                 </div>
-                                {{ Form::submit(__('app.update'), ['class' => 'btn btn-info btn-sm', 'id' => 'set_wife_button']) }}
+                                {{ Form::submit(__('app.update'), ['class' => 'btn btn-info btn-sm  btn btn-info', 'id' => 'set_wife_button']) }}
                                 @if (Auth::user()->role == 'admin')
-                                    {{ link_to_route('users.show', __('app.cancel'), $user, ['class' => 'btn btn-default btn-sm']) }}
+                                    {{ link_to_route('users.show', __('app.cancel'), $user, ['class' => 'btn btn-default btn-sm  btn btn-danger']) }}
                                 @else
                                     <div></div>
                                 @endif
@@ -167,12 +167,34 @@
                         <th>اضف المشروع التجاري الخاص بك</th>
                         <td>
                             <div class="pull-center">
-                                <h4><a href="{{ route('view.company', $user) }}">اضف مشروعك</a></h4>
+                                <h4><a class="btn btn-info" href="{{ route('view.company', $user) }}">اضف مشروعك</a>
+                                </h4>
+                            </div>
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>اضف ذكري او قصة لك</th>
+                        <td>
+                            <div class="pull-center">
+                                <h4><a class="btn btn-info" href="{{ route('add.memory', $user) }}">اضف ذكرياتك</a>
+                                </h4>
                             </div>
 
                         </td>
                     </tr>
                 @endif
+                <tr>
+                    <th>مشاهدة ذكريات</th>
+                    <td>
+                        <div class="pull-center">
+                            <h4><a class="btn btn-info" href="{{ route('view.memory', $user) }}">مشاهدة الذكريات الخاصة
+                                    ب
+                                    {{ $user->name }}</a></h4>
+                        </div>
+
+                    </td>
+                </tr>
             @else
                 <tr>
                     <th>{{ __('user.husband') }}</th>
@@ -215,7 +237,7 @@
                                 </div>
                                 {{ Form::submit(__('app.update'), ['class' => 'btn btn-info btn-sm', 'id' => 'set_husband_button']) }}
                                 @if (Auth::user()->role == 'admin')
-                                    {{ link_to_route('users.show', __('app.cancel'), [$user->id], ['class' => 'btn btn-default btn-sm']) }}
+                                    {{ link_to_route('users.show', __('app.cancel'), [$user->id], ['class' => 'btn btn-danger btn-sm']) }}
                                 @else
                                     <div></div>
                                 @endif
@@ -223,11 +245,31 @@
                                 {{ Form::close() }}
                             </div>
                         @endif
-                        {{-- @endcan --}}
+                        @if (Auth::user()->role == 'admin')
+                <tr>
+                    <th>اضف المشروع التجاري الخاص بك</th>
+                    <td>
+                        <div class="pull-center">
+                            <h4><a href="{{ route('view.company', $user) }}">اضف مشروعك</a></h4>
+                        </div>
+
                     </td>
-
-
                 </tr>
+                <tr>
+                    <th>اضف ذكري او قصة لك</th>
+                    <td>
+                        <div class="pull-center">
+                            <h4><a href="{{ route('add.memory', $user) }}">اضف ذكرياتك</a></h4>
+                        </div>
+
+                    </td>
+                </tr>
+            @endif
+            {{-- @endcan --}}
+            </td>
+
+
+            </tr>
             @endif
         </tbody>
     </table>
