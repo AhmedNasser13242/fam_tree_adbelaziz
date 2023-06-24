@@ -79,7 +79,7 @@ $ggccTotal = 0;
     <div class="col-md-1 text-left"><strong style="font-size:30px">{{ $grandChildsTotal }}</strong></div>
     @endif
     @if ($ggTotal)
-    <div class="col-md-1 text-right">Jumlah Cicit</div>
+    <div class="col-md-1 text-right">عدد أبناء الأحفاد</div>
     <div class="col-md-1 text-left"><strong style="font-size:30px">{{ $ggTotal }}</strong></div>
     @endif
     @if ($ggcTotal)
