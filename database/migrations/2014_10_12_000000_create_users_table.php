@@ -33,7 +33,7 @@ class CreateUsersTable extends Migration
             $table->string('phone')->nullable();
             $table->string('photo_path')->nullable();
             $table->uuid('manager_id')->nullable();
-            $table->enum('role',['admin','vendor','user'])->default('user');
+            $table->enum('role',['user'])->default('user');
 
             $table->rememberToken();
             $table->timestamps();
