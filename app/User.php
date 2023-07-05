@@ -135,6 +135,10 @@ class User extends Authenticatable
     {
         return $this->father_id ? link_to_route('users.show', $this->father->name, [$this->father_id]) : null;
     }
+    public function grandpalink()
+    {
+        return $this->father_id ? link_to_route('users.search', $this->father->name, [$this->father_id]) : null;
+    }
 
     public function motherLink()
     {
@@ -351,3 +355,5 @@ class User extends Authenticatable
         return $defaultValue;
     }
 }
+
+

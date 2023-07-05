@@ -20,6 +20,8 @@ class Project extends Model
         'company_links',
         'company_image',
     ];
+
+    
     public function user (){
         return $this->belongsTo(User::class, 'user_id', 'id');
     }

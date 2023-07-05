@@ -21,11 +21,7 @@
                 <p class="card-text"><?php echo e($memory->memory_description); ?>
 
                 </p>
-                <?php if(Auth::user()->id == $memory->user_id): ?>
-                    <a href="<?php echo e(route('delete.memory', $memory->id)); ?>" class="btn btn-primary">امسح</a>
-                    <a href="<?php echo e(route('edit.memory', $memory->id)); ?>" class="btn btn-primary">تعديل</a>
-                <?php else: ?>
-                <?php endif; ?>
+                
                 <?php if(Auth::user()->role == 'admin'): ?>
                     <a href="<?php echo e(route('delete.memory', $memory->id)); ?>" class="btn btn-primary">امسح</a>
                     <a href="<?php echo e(route('edit.memory', $memory->id)); ?>" class="btn btn-primary">تعديل</a>

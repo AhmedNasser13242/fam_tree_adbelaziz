@@ -20,11 +20,11 @@
                 <h5 class="card-title"></h5>
                 <p class="card-text">{{ $memory->memory_description }}
                 </p>
-                @if (Auth::user()->id == $memory->user_id)
+                {{-- @if (Auth::user()->id == $memory->user_id)
                     <a href="{{ route('delete.memory', $memory->id) }}" class="btn btn-primary">امسح</a>
                     <a href="{{ route('edit.memory', $memory->id) }}" class="btn btn-primary">تعديل</a>
                 @else
-                @endif
+                @endif --}}
                 @if (Auth::user()->role == 'admin')
                     <a href="{{ route('delete.memory', $memory->id) }}" class="btn btn-primary">امسح</a>
                     <a href="{{ route('edit.memory', $memory->id) }}" class="btn btn-primary">تعديل</a>

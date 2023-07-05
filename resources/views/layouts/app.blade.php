@@ -49,6 +49,15 @@
     <link href="https://cdn.datatables.net/1.10.21/css/jquery.dataTables.min.css" rel="stylesheet">
     <link href="https://cdn.datatables.net/1.10.21/css/dataTables.bootstrap4.min.css" rel="stylesheet">
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+
+    <!-- DataTable -->
+    <link href="{{ asset('adminbackend/assets/plugins/datatable/css/dataTables.bootstrap5.min.css') }}"
+        rel="stylesheet" />
+    <!-- DataTable-->
+    <link href="{{ asset('adminbackend/assets/plugins/input-tags/css/tagsinput.css') }}" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+        integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     @yield('ext_css')
     <style>
         .page-header {
@@ -129,6 +138,115 @@
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
         <script src="https://cdn.datatables.net/1.10.21/js/dataTables.bootstrap4.min.js"></script>
         <script type="text/javascript"></script>
+
+
+
+        <!--end switcher-->
+        <!-- Bootstrap JS -->
+        <script src="{{ asset('adminbackend/assets/js/bootstrap.bundle.min.js') }}"></script>
+        <!--plugins-->
+        <script src="{{ asset('adminbackend/assets/js/jquery.min.js') }}"></script>
+        <script src="{{ asset('adminbackend/assets/plugins/simplebar/js/simplebar.min.js') }}"></script>
+        <script src="{{ asset('adminbackend/assets/plugins/metismenu/js/metisMenu.min.js') }}"></script>
+        <script src="{{ asset('adminbackend/assets/plugins/perfect-scrollbar/js/perfect-scrollbar.js') }}"></script>
+        <script src="{{ asset('adminbackend/assets/plugins/chartjs/js/Chart.min.js') }}"></script>
+        <script src="{{ asset('adminbackend/assets/plugins/vectormap/jquery-jvectormap-2.0.2.min.js') }}"></script>
+        <script src="{{ asset('adminbackend/assets/plugins/vectormap/jquery-jvectormap-world-mill-en.js') }}"></script>
+        <script src="{{ asset('adminbackend/assets/plugins/jquery.easy-pie-chart/jquery.easypiechart.min.js') }}"></script>
+        <script src="{{ asset('adminbackend/assets/plugins/sparkline-charts/jquery.sparkline.min.js') }}"></script>
+        <script src="{{ asset('adminbackend/assets/plugins/jquery-knob/excanvas.js') }}"></script>
+        <script src="{{ asset('adminbackend/assets/plugins/jquery-knob/jquery.knob.js') }}"></script>
+        <script>
+            $(function() {
+                $(".knob").knob();
+            });
+        </script>
+        <script src="{{ asset('adminbackend/assets/js/index.js') }}"></script>\
+        <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+        <script src="{{ asset('adminbackend/assets/js/code.js') }}"></script>
+
+
+        <!--Datatable-->
+        <script src="{{ asset('adminbackend/assets/plugins/datatable/js/jquery.dataTables.min.js') }}"></script>
+        <script>
+            $(document).ready(function() {
+                $('#example').DataTable();
+            });
+        </script>
+        <!--Datatable-->
+
+        <!--app JS-->
+        <script src="{{ asset('adminbackend/assets/js/validate.min.js') }}"></script>
+        <script src="{{ asset('adminbackend/assets/js/app.js') }}"></script>
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
+
+        <script>
+            @if (Session::has('message'))
+                var type = "{{ Session::get('alert-type', 'info') }}"
+                switch (type) {
+                    case 'info':
+                        toastr.info(" {{ Session::get('message') }} ");
+                        break;
+                    case 'success':
+                        toastr.success(" {{ Session::get('message') }} ");
+                        break;
+                    case 'warning':
+                        toastr.warning(" {{ Session::get('message') }} ");
+                        break;
+                    case 'error':
+                        toastr.error(" {{ Session::get('message') }} ");
+                        break;
+                }
+            @endif
+
+            <
+            script src = "https://cdn.jsdelivr.net/npm/sweetalert2@10" >
+        </script>
+        <script src="{{ asset('adminbackend/assets/js/code.js') }}"></script>
+        </script>
+
+        <script src="{{ asset('adminbackend/assets/plugins/input-tags/js/tagsinput.js') }}"></script>
+
+
+        <script>
+            tinymce.init({
+                selector: '#mytextarea'
+            });
+        </script>
+
+        <script type="text/javascript">
+            document.getElementById("text").addEventListener('paste', e => e.preventDefault())
+        </script>
+        <script src="{{ asset('adminbackend/assets/js/validate.min.js') }}"></script>
+        <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+        <script src="{{ asset('adminbackend/assets/js/code.js') }}"></script>
+        <script src="{{ asset('adminbackend/assets/plugins/input-tags/js/tagsinput.js') }}"></script>
+
+        <script src="https://cdn.tiny.cloud/1/i4iouzemq3s4y083d894r1b83b9opxvahnoxn5l0p1t3o7bq/tinymce/6/tinymce.min.js"
+            referrerpolicy="origin"></script>
+        <script>
+            tinymce.init({
+                selector: 'textarea',
+                plugins: 'anchor autolink charmap codesample emoticons image link lists media searchreplace table visualblocks wordcount checklist mediaembed casechange export formatpainter pageembed linkchecker a11ychecker tinymcespellchecker permanentpen powerpaste advtable advcode editimage tinycomments tableofcontents footnotes mergetags autocorrect typography inlinecss',
+                toolbar: 'undo redo | blocks fontfamily fontsize | bold italic underline strikethrough | link image media table mergetags | addcomment showcomments | spellcheckdialog a11ycheck typography | align lineheight | checklist numlist bullist indent outdent | emoticons charmap | removeformat',
+                tinycomments_mode: 'embedded',
+                tinycomments_author: 'Author name',
+                mergetags_list: [{
+                        value: 'First.Name',
+                        title: 'First Name'
+                    },
+                    {
+                        value: 'Email',
+                        title: 'Email'
+                    },
+                ]
+            });
+        </script>
+        <script>
+            tinymce.init({
+                selector: '#mytextarea'
+            });
+        </script>
 </body>
 
 </html>

@@ -2,15 +2,16 @@
 
 namespace App\Http\Controllers;
 
-use App\Couple;
-use App\Http\Requests\Users\UpdateRequest;
-use App\Jobs\Users\DeleteAndReplaceUser;
+use Storage;
 use App\User;
+use App\Couple;
 use App\UserMetadata;
+use Ramsey\Uuid\Uuid;
 use Illuminate\Http\Request;
 use Illuminate\Support\Collection;
-use Ramsey\Uuid\Uuid;
-use Storage;
+use Illuminate\Support\Facades\Auth;
+use App\Jobs\Users\DeleteAndReplaceUser;
+use App\Http\Requests\Users\UpdateRequest;
 
 class UsersController extends Controller
 {
@@ -21,8 +22,12 @@ class UsersController extends Controller
      */
     public function search(Request $request)
     {
+        $userss = User::where('role', "admin")->get();
         $q = $request->get('q');
         $users = [];
+
+
+        
 
         if ($q) {
             $users = User::with('father', 'mother')->where(function ($query) use ($q) {
@@ -33,7 +38,7 @@ class UsersController extends Controller
                 ->paginate(24);
         }
 
-        return view('users.search', compact('users'));
+        return view('users.search', compact('users', 'userss'));
     }
 
     /**
@@ -69,8 +74,13 @@ class UsersController extends Controller
         $father = $user->father_id ? $user->father : null;
         $mother = $user->mother_id ? $user->mother : null;
 
+        
         $fatherGrandpa = $father && $father->father_id ? $father->father : null;
         $fatherGrandma = $father && $father->mother_id ? $father->mother : null;
+        
+        $fatherGrandpa_1 = $fatherGrandpa && $fatherGrandpa->father_id ? $fatherGrandpa->father : null;
+
+
 
         $motherGrandpa = $mother && $mother->father_id ? $mother->father : null;
         $motherGrandma = $mother && $mother->mother_id ? $mother->mother : null;
@@ -84,7 +94,7 @@ class UsersController extends Controller
         return view('users.chart', compact(
             'user', 'childs', 'father', 'mother', 'fatherGrandpa',
             'fatherGrandma', 'motherGrandpa', 'motherGrandma',
-            'siblings', 'colspan'
+            'siblings', 'colspan','fatherGrandpa_1'
         ));
     }
 
@@ -96,7 +106,8 @@ class UsersController extends Controller
      */
     public function tree(User $user)
     {
-        return view('users.tree', compact('user'));
+        $users = User::all();
+        return view('users.tree', compact('user','users'));
     }
 
     /**
