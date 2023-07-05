@@ -1,4 +1,4 @@
-@extends('layouts.app')
+{{-- @extends('layouts.app')
 @section('title', __('user.upcoming_birthday'))
 @section('content')
     @foreach ($memories as $key => $memory)
@@ -25,11 +25,11 @@
                     <a href="{{ route('edit.memory', $memory->id) }}" class="btn btn-primary">تعديل</a>
                 @else
                 @endif --}}
-                @if (Auth::user()->role == 'admin')
-                    <a href="{{ route('delete.memory', $memory->id) }}" class="btn btn-primary">امسح</a>
-                    <a href="{{ route('edit.memory', $memory->id) }}" class="btn btn-primary">تعديل</a>
-                @endif
-            </div>
-        </div>
-    @endforeach
-@endsection
+@if (Auth::user()->role == 'admin')
+    <a href="{{ route('delete.memory', $memory->id) }}" class="btn btn-primary">امسح</a>
+    <a href="{{ route('edit.memory', $memory->id) }}" class="btn btn-primary">تعديل</a>
+@endif
+</div>
+</div>
+@endforeach
+@endsection --}}

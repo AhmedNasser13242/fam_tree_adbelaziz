@@ -1,4 +1,4 @@
-@extends('layouts.app')
+{{-- @extends('layouts.app')
 @section('title', __('user.upcoming_birthday'))
 @section('content')
     @foreach ($projects as $project)
@@ -56,4 +56,4 @@
             @endif
         </div>
     @endforeach
-@endsection
+@endsection --}}

@@ -1,4 +1,4 @@
-@extends('layouts.app')
+{{-- @extends('layouts.app')
 
 @section('content')
 
@@ -108,8 +108,7 @@
     $pppaaaTotal = 0;
     $ppppaaaTotal = 0;
     $ppppaaaaTotal = 0;
-
-
+    
     $gcTotal = 0;
     $ggTotal = 0;
     $ggcTotal = 0;
@@ -386,4 +385,4 @@
 @endsection
 @section('ext_css')
 <link rel="stylesheet" href="{{ asset('css/tree.css') }}">
-@endsection
+@endsection --}}
